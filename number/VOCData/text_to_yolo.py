@@ -24,8 +24,8 @@ def convert(size, box):
  
  
 def convert_annotation(image_id):
-    in_file = open('/home/whaltze/RoboCup/number/VOCData/Annotations/%s.xml' % (image_id), encoding='UTF-8')
-    out_file = open('/home/whaltze/RoboCup/number/VOCData/labels/%s.txt' % (image_id), 'w')
+    in_file = open('/mnt/workspace/Robot/number/VOCData/Annotations/%s.xml' % (image_id), encoding='UTF-8')
+    out_file = open('/mnt/workspace/Robot/number/VOCData/labels/%s.txt' % (image_id), 'w')
     tree = ET.parse(in_file)
     root = tree.getroot()
     size = root.find('size')
@@ -54,12 +54,12 @@ def convert_annotation(image_id):
  
 wd = getcwd()
 for image_set in sets:
-    if not os.path.exists('/home/whaltze/RoboCup/number/VOCData/labels/'):
-        os.makedirs('/home/whaltze/RoboCup/number/VOCData/labels/')
-    image_ids = open('/home/whaltze/RoboCup/number/VOCData/ImageSets/Main/%s.txt' % (image_set)).read().strip().split()
+    if not os.path.exists('/mnt/workspace/Robot/number/VOCData/labels/'):
+        os.makedirs('/mnt/workspace/Robot/number/VOCData/labels/')
+    image_ids = open('/mnt/workspace/Robot/number/VOCData/ImageSets/Main/%s.txt' % (image_set)).read().strip().split()
  
-    if not os.path.exists('/home/whaltze/RoboCup/number/VOCData/dataSet_path/'):
-        os.makedirs('/home/whaltze/RoboCup/number/VOCData/dataSet_path/')
+    if not os.path.exists('/mnt/workspace/Robot/number/VOCData/dataSet_path/'):
+        os.makedirs('/mnt/workspace/Robot/number/VOCData/dataSet_path/')
  
     list_file = open('dataSet_path/%s.txt' % (image_set), 'w')
     for image_id in image_ids:
