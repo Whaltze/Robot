@@ -6,11 +6,11 @@ import numpy as np
 import xml.etree.cElementTree as et
 from kmeans import kmeans, avg_iou
  
-FILE_ROOT = "/home/whaltze/RoboCup/number/VOCData/"     # 根路径
+FILE_ROOT = "/mnt/workspace/Robot/number/VOCData/"     # 根路径
 ANNOTATION_ROOT = "Annotations"   # 数据集标签文件夹路径
 ANNOTATION_PATH = FILE_ROOT + ANNOTATION_ROOT
  
-ANCHORS_TXT_PATH = "/home/whaltze/RoboCup/number/VOCData/anchors.txt"   #anchors文件保存位置
+ANCHORS_TXT_PATH = "/mnt/workspace/Robot/number/VOCData/anchors.txt"   #anchors文件保存位置
  
 CLUSTERS = 9
 CLASS_NAMES = ['one','two','three','four','five','six','seven','eight']   #类别名称
