@@ -1,0 +1,5 @@
+/home/whaltze/RoboCup/number/VOCData/images/7.jpg
+/home/whaltze/RoboCup/number/VOCData/images/1-2.jpg
+/home/whaltze/RoboCup/number/VOCData/images/7-3.jpg
+/home/whaltze/RoboCup/number/VOCData/images/7-1.jpg
+/home/whaltze/RoboCup/number/VOCData/images/6-2.jpg

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>4-4.jpg</filename>
+	<path>/home/whaltze/RoboCup/number/VOCData/images/4-4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>784</width>
+		<height>823</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>four</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>252</xmin>
+			<ymin>205</ymin>
+			<xmax>499</xmax>
+			<ymax>569</ymax>
+		</bndbox>
+	</object>
+</annotation>
