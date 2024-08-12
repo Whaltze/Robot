@@ -63,6 +63,6 @@ for image_set in sets:
  
     list_file = open('dataSet_path/%s.txt' % (image_set), 'w')
     for image_id in image_ids:
-        list_file.write('/home/whaltze/RoboCup/number/VOCData/images/%s.jpg\n' % (image_id))
+        list_file.write('/mnt/workspace/Robot/number/VOCData/images/%s.jpg\n' % (image_id))
         convert_annotation(image_id)
     list_file.close()
