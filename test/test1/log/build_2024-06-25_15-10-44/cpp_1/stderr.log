@@ -1,0 +1,67 @@
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:17:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+   17 |     void topic_callback(const [01;31m[Kstd_msgs[m[K::msg::String & msg) const
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:17:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   17 |     void topic_callback(const std_msgs::msg[01;31m[K::[m[KString & msg) const
+      |                                            [01;31m[K^~[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:17:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   17 |     void topic_callback[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KString & msg) const
+      |                        [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                            [32m[K)[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:17:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   17 |     void topic_callback(const std_msgs::[01;31m[Kmsg[m[K::String & msg) const
+      |                                         [01;31m[K^~~[m[K
+      |                                            [32m[K;[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:17:46:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   17 |     void topic_callback(const std_msgs::msg::[01;31m[KString[m[K & msg) const
+      |                                              [01;31m[K^~~~~~[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:21:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   21 |     rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr subscription_;
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:21:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |     rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:21:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:21:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:21:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:21:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   21 |     rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:21:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   21 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                            [32m[Krmw_subscription_t[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:12:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   12 |       [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Krmw_subscription_t[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:12:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   12 |       subscription_ = this->create_subscription<[01;31m[Kstd_msgs[m[K::msg::String>(
+      |                                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:12:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   12 |       subscription_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::String>[m[K(
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:12:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::create_subscription<<expression error> >(const char [6], int, std::_Bind_helper<false, void (MinimalSubscriber::*)(...), MinimalSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+   12 |       subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>([m[K
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   13 | [01;31m[K      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:12:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |       subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>([m[K
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   13 | [01;31m[K      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76：CMakeFiles/listener.dir/src/listener.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/listener.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

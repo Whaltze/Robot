@@ -1,0 +1,25 @@
+[0.678s] Invoking command in '/home/whaltze/rm/202302/ros2/src/camera': PYTHONPATH=/home/whaltze/rm/202302/ros2/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaltze/rm/202302/ros2/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/whaltze/rm/202302/ros2/build/camera/build install --record /home/whaltze/rm/202302/ros2/build/camera/install.log --single-version-externally-managed install_data
+[0.845s] running egg_info
+[0.856s] writing ../../build/camera/camera.egg-info/PKG-INFO
+[0.859s] writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt
+[0.860s] writing entry points to ../../build/camera/camera.egg-info/entry_points.txt
+[0.860s] writing requirements to ../../build/camera/camera.egg-info/requires.txt
+[0.860s] writing top-level names to ../../build/camera/camera.egg-info/top_level.txt
+[0.882s] reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[0.883s] writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[0.884s] running build
+[0.884s] running build_py
+[0.884s] copying camera/__init__.py -> /home/whaltze/rm/202302/ros2/build/camera/build/lib/camera
+[0.885s] copying camera/camera_node.py -> /home/whaltze/rm/202302/ros2/build/camera/build/lib/camera
+[0.885s] running install
+[0.888s] running install_lib
+[0.901s] running install_data
+[0.902s] copying resource/camera -> /home/whaltze/rm/202302/ros2/install/camera/share/ament_index/resource_index/packages
+[0.902s] copying package.xml -> /home/whaltze/rm/202302/ros2/install/camera/share/camera
+[0.903s] running install_egg_info
+[0.914s] removing '/home/whaltze/rm/202302/ros2/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info' (and everything under it)
+[0.916s] Copying ../../build/camera/camera.egg-info to /home/whaltze/rm/202302/ros2/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+[0.920s] running install_scripts
+[1.019s] Installing camera_node script to /home/whaltze/rm/202302/ros2/install/camera/lib/camera
+[1.021s] writing list of installed files to '/home/whaltze/rm/202302/ros2/build/camera/install.log'
+[1.040s] Invoked command in '/home/whaltze/rm/202302/ros2/src/camera' returned '0': PYTHONPATH=/home/whaltze/rm/202302/ros2/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaltze/rm/202302/ros2/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/whaltze/rm/202302/ros2/build/camera/build install --record /home/whaltze/rm/202302/ros2/build/camera/install.log --single-version-externally-managed install_data

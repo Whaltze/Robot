@@ -1,0 +1,14 @@
+[01m[K/home/whaltze/rm/ros_ws/src/learning_image_transport/src/my_subscriber.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: 没有那个文件或目录
+    1 | #include [01;31m[K<ros/ros.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/whaltze/rm/ros_ws/src/learning_image_transport/src/my_publisher.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: 没有那个文件或目录
+    1 | #include [01;31m[K<ros/ros.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/my_publisher.dir/build.make:76：CMakeFiles/my_publisher.dir/src/my_publisher.cpp.o] 错误 1
+gmake[2]: *** [CMakeFiles/my_subscriber.dir/build.make:76：CMakeFiles/my_subscriber.dir/src/my_subscriber.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/my_publisher.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/my_subscriber.dir/all] 错误 2
+gmake: *** [Makefile:101：all] 错误 2

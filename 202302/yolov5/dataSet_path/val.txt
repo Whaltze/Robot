@@ -1,0 +1,4 @@
+/home/whaltze/rm/202302/yolov5/images/8.jpg
+/home/whaltze/rm/202302/yolov5/images/7-4.jpg
+/home/whaltze/rm/202302/yolov5/images/7-2.jpg
+/home/whaltze/rm/202302/yolov5/images/8-1.jpg

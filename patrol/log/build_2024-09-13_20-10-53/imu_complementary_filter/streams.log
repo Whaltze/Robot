@@ -1,0 +1,37 @@
+[0.031s] Invoking command in '/home/whaltze/rm/patrol/build/imu_complementary_filter': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(rm) /usr/bin/cmake --build /home/whaltze/rm/patrol/build/imu_complementary_filter -- -j8 -l8
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target complementary_filter[0m
+[0.092s] [ 60%] Built target complementary_filter
+[0.129s] [35m[1mConsolidate compiler generated dependencies of target complementary_filter_node[0m
+[0.170s] [100%] Built target complementary_filter_node
+[0.179s] Invoked command in '/home/whaltze/rm/patrol/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(rm) /usr/bin/cmake --build /home/whaltze/rm/patrol/build/imu_complementary_filter -- -j8 -l8
+[0.303s] Invoking command in '/home/whaltze/rm/patrol/build/imu_complementary_filter': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(rm) /usr/bin/cmake --install /home/whaltze/rm/patrol/build/imu_complementary_filter
+[0.360s] -- Install configuration: ""
+[0.360s] -- Execute custom install script
+[0.360s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/lib/imu_complementary_filter/complementary_filter_node
+[0.361s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/include/imu_complementary_filter/complementary_filter.h
+[0.361s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/include/imu_complementary_filter/complementary_filter_ros.h
+[0.384s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/launch/complementary_filter.launch.py
+[0.413s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/environment/library_path.sh
+[0.450s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/environment/library_path.dsv
+[0.470s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/ament_index/resource_index/package_run_dependencies/imu_complementary_filter
+[0.496s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/ament_index/resource_index/parent_prefix_path/imu_complementary_filter
+[0.511s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/environment/ament_prefix_path.sh
+[0.535s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/environment/ament_prefix_path.dsv
+[0.566s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/environment/path.sh
+[0.587s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/environment/path.dsv
+[0.602s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.bash
+[0.621s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.sh
+[0.630s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.zsh
+[0.647s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.dsv
+[0.673s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/package.dsv
+[0.692s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/ament_index/resource_index/packages/imu_complementary_filter
+[0.708s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.721s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_libraries-extras.cmake
+[0.736s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_targets-extras.cmake
+[0.749s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/cmake/imu_complementary_filterConfig.cmake
+[0.770s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/cmake/imu_complementary_filterConfig-version.cmake
+[0.789s] -- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/package.xml
+[0.807s] -- Installing: /home/whaltze/rm/patrol/install/imu_complementary_filter/lib/libcomplementary_filter.so
+[0.820s] -- Set runtime path of "/home/whaltze/rm/patrol/install/imu_complementary_filter/lib/libcomplementary_filter.so" to ""
+[0.820s] -- Installing: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport.cmake
+[0.820s] -- Installing: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport-noconfig.cmake

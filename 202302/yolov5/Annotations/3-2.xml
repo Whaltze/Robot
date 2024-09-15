@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>3-2.jpg</filename>
+	<path>/home/whaltze/yolov5-master/VOCData/images/3-2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>756</width>
+		<height>636</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>three</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>250</xmin>
+			<ymin>204</ymin>
+			<xmax>430</xmax>
+			<ymax>408</ymax>
+		</bndbox>
+	</object>
+</annotation>

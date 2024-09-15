@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000131] (cpp_1) JobQueued: {'identifier': 'cpp_1', 'dependencies': OrderedDict()}
+[0.000190] (cpp_1) JobStarted: {'identifier': 'cpp_1'}
+[0.008639] (cpp_1) JobProgress: {'identifier': 'cpp_1', 'progress': 'cmake'}
+[0.009228] (cpp_1) JobProgress: {'identifier': 'cpp_1', 'progress': 'build'}
+[0.009712] (cpp_1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/whaltze/rm/test/test1/build/cpp_1', '--', '-j8', '-l8'], 'cwd': '/home/whaltze/rm/test/test1/build/cpp_1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('OLDPWD', '/home/whaltze'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1889'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/whaltze/rm/test/test1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1718,unix/Ubuntu:/tmp/.ICE-unix/1718'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d2c3e2d3_2188_463f_9522_ab3c77be7477'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.632QP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/whaltze/rm/test/test1/install/cpp_1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/test/test1/build/cpp_1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/whaltze/rm/test/test1/install/cpp_1:/opt/ros/humble')]), 'shell': False}
+[0.049605] (cpp_1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.062109] (cpp_1) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/sender.dir/src/sender.cpp.o\x1b[0m\n'}
+[0.067220] (cpp_1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o\x1b[0m\n'}
+[0.099428] (-) TimerEvent: {}
+[0.199742] (-) TimerEvent: {}
+[0.300139] (-) TimerEvent: {}
+[0.400620] (-) TimerEvent: {}
+[0.501237] (-) TimerEvent: {}
+[0.601535] (-) TimerEvent: {}
+[0.701914] (-) TimerEvent: {}
+[0.806406] (-) TimerEvent: {}
+[0.906705] (-) TimerEvent: {}
+[1.007030] (-) TimerEvent: {}
+[1.107328] (-) TimerEvent: {}
+[1.207628] (-) TimerEvent: {}
+[1.307906] (-) TimerEvent: {}
+[1.408210] (-) TimerEvent: {}
+[1.508561] (-) TimerEvent: {}
+[1.608870] (-) TimerEvent: {}
+[1.709222] (-) TimerEvent: {}
+[1.809682] (-) TimerEvent: {}
+[1.910006] (-) TimerEvent: {}
+[2.010370] (-) TimerEvent: {}
+[2.110774] (-) TimerEvent: {}
+[2.211120] (-) TimerEvent: {}
+[2.311441] (-) TimerEvent: {}
+[2.411812] (-) TimerEvent: {}
+[2.512272] (-) TimerEvent: {}
+[2.612665] (-) TimerEvent: {}
+[2.713066] (-) TimerEvent: {}
+[2.813412] (-) TimerEvent: {}
+[2.913756] (-) TimerEvent: {}
+[3.014177] (-) TimerEvent: {}
+[3.106808] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:17:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.107100] (cpp_1) StderrLine: {'line': b'   17 |     void topic_callback(const \x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String & msg) const\n'}
+[3.107167] (cpp_1) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.107219] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:17:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.107272] (cpp_1) StderrLine: {'line': b'   17 |     void topic_callback(const std_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KString & msg) const\n'}
+[3.107321] (cpp_1) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.108131] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:17:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.108290] (cpp_1) StderrLine: {'line': b'   17 |     void topic_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst std_msgs::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KString & msg) const\n'}
+[3.108428] (cpp_1) StderrLine: {'line': b'      |                        \x1b[34m\x1b[K~\x1b[m\x1b[K                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[3.108903] (cpp_1) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[3.108969] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:17:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.109022] (cpp_1) StderrLine: {'line': b'   17 |     void topic_callback(const std_msgs::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::String & msg) const\n'}
+[3.109079] (cpp_1) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.109127] (cpp_1) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.110121] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:17:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.110213] (cpp_1) StderrLine: {'line': b'   17 |     void topic_callback(const std_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K & msg) const\n'}
+[3.110268] (cpp_1) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.114079] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:21:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.114184] (-) TimerEvent: {}
+[3.114538] (cpp_1) StderrLine: {'line': b'   21 |     rclcpp::Subscription<\x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String>::SharedPtr subscription_;\n'}
+[3.114631] (cpp_1) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.114686] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:21:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.114738] (cpp_1) StderrLine: {'line': b'   21 |     rclcpp::Subscription<std_msgs::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[3.114787] (cpp_1) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.114964] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:21:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[3.115027] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:21:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[3.115079] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:21:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[3.115434] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:21:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.115517] (cpp_1) StderrLine: {'line': b'   21 |     rclcpp::Subscription<std_msgs::msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[3.115570] (cpp_1) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.115619] (cpp_1) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.116613] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:21:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.116738] (cpp_1) StderrLine: {'line': b'   21 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[3.116794] (cpp_1) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.116856] (cpp_1) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[3.121582] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::MinimalSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.121724] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:12:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.121786] (cpp_1) StderrLine: {'line': b'   12 |       \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::String>(\n'}
+[3.121836] (cpp_1) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.121896] (cpp_1) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[3.124817] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:12:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.125041] (cpp_1) StderrLine: {'line': b'   12 |       subscription_ = this->create_subscription<\x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String>(\n'}
+[3.125105] (cpp_1) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.125158] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:12:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[3.125208] (cpp_1) StderrLine: {'line': b'   12 |       subscription_ = this->\x1b[01;31m\x1b[Kcreate_subscription<std_msgs::msg::String>\x1b[m\x1b[K(\n'}
+[3.125256] (cpp_1) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.132973] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:12:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::create_subscription<<expression error> >(const char [6], int, std::_Bind_helper<false, void (MinimalSubscriber::*)(...), MinimalSubscriber*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.133183] (cpp_1) StderrLine: {'line': b'   12 |       subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<std_msgs::msg::String>(\x1b[m\x1b[K\n'}
+[3.133245] (cpp_1) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.133297] (cpp_1) StderrLine: {'line': b'   13 | \x1b[01;31m\x1b[K      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1))\x1b[m\x1b[K;\n'}
+[3.133390] (cpp_1) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.134210] (cpp_1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.134677] (cpp_1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.134746] (cpp_1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.134797] (cpp_1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:1\x1b[m\x1b[K:\n'}
+[3.134848] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.135292] (cpp_1) StderrLine: {'line': b'  219 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[3.135371] (cpp_1) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.135423] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.135473] (cpp_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:12:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.135522] (cpp_1) StderrLine: {'line': b'   12 |       subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<std_msgs::msg::String>(\x1b[m\x1b[K\n'}
+[3.135571] (cpp_1) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.135618] (cpp_1) StderrLine: {'line': b'   13 | \x1b[01;31m\x1b[K      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1))\x1b[m\x1b[K;\n'}
+[3.135674] (cpp_1) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.214321] (-) TimerEvent: {}
+[3.314830] (-) TimerEvent: {}
+[3.415153] (-) TimerEvent: {}
+[3.515498] (-) TimerEvent: {}
+[3.615835] (-) TimerEvent: {}
+[3.668605] (cpp_1) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76\xef\xbc\x9aCMakeFiles/listener.dir/src/listener.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.669184] (cpp_1) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/listener.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.669315] (cpp_1) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[3.715985] (-) TimerEvent: {}
+[3.816323] (-) TimerEvent: {}
+[3.916636] (-) TimerEvent: {}
+[4.017063] (-) TimerEvent: {}
+[4.117485] (-) TimerEvent: {}
+[4.217881] (-) TimerEvent: {}
+[4.318161] (-) TimerEvent: {}
+[4.418488] (-) TimerEvent: {}
+[4.518850] (-) TimerEvent: {}
+[4.619482] (-) TimerEvent: {}
+[4.719979] (-) TimerEvent: {}
+[4.789897] (cpp_1) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable sender\x1b[0m\n'}
+[4.820124] (-) TimerEvent: {}
+[4.920396] (-) TimerEvent: {}
+[4.945003] (cpp_1) StdoutLine: {'line': b'[ 75%] Built target sender\n'}
+[4.945850] (cpp_1) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.948141] (cpp_1) CommandEnded: {'returncode': 2}
+[5.000840] (cpp_1) JobEnded: {'identifier': 'cpp_1', 'rc': 2}
+[5.011456] (-) EventReactorShutdown: {}

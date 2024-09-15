@@ -1,0 +1,2 @@
+Invoking command in '/home/whaltze/rm/test/test1/build/cpp_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/whaltze/rm/test/test1/build/cpp_1 -- -j8 -l8
+Invoked command in '/home/whaltze/rm/test/test1/build/cpp_1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/whaltze/rm/test/test1/build/cpp_1 -- -j8 -l8

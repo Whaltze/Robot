@@ -1,0 +1,23 @@
+[0.030s] Invoking command in '/home/whaltze/rm/patrol/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(rm) /usr/bin/cmake --build /home/whaltze/rm/patrol/build/costmap_converter_msgs -- -j8 -l8
+[0.090s] [ 10%] Built target costmap_converter_msgs__rosidl_generator_c
+[0.095s] [ 12%] Built target costmap_converter_msgs__cpp
+[0.114s] [ 12%] Built target ament_cmake_python_symlink_costmap_converter_msgs
+[0.141s] [ 23%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c
+[0.161s] [ 33%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c
+[0.173s] [ 43%] Built target costmap_converter_msgs__rosidl_typesupport_c
+[0.193s] [ 53%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_cpp
+[0.193s] [ 64%] Built target costmap_converter_msgs__rosidl_typesupport_cpp
+[0.193s] [ 74%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp
+[0.238s] [ 74%] Built target costmap_converter_msgs
+[0.269s] [ 76%] Built target costmap_converter_msgs__py
+[0.302s] [ 84%] Built target costmap_converter_msgs__rosidl_generator_py
+[0.330s] [ 89%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.330s] [ 94%] Built target costmap_converter_msgs__rosidl_typesupport_c__pyext
+[0.331s] [100%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c__pyext
+[0.394s] running egg_info
+[0.405s] writing costmap_converter_msgs.egg-info/PKG-INFO
+[0.405s] writing dependency_links to costmap_converter_msgs.egg-info/dependency_links.txt
+[0.406s] writing top-level names to costmap_converter_msgs.egg-info/top_level.txt
+[0.441s] reading manifest file 'costmap_converter_msgs.egg-info/SOURCES.txt'
+[0.442s] writing manifest file 'costmap_converter_msgs.egg-info/SOURCES.txt'
+[0.463s] [100%] Built target ament_cmake_python_build_costmap_converter_msgs_egg

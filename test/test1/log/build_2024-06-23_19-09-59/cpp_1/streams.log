@@ -1,0 +1,101 @@
+[0.020s] Invoking command in '/home/whaltze/rm/test/test1/build/cpp_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/whaltze/rm/test/test1/build/cpp_1 -- -j8 -l8
+[0.071s] [ 25%] [32mBuilding CXX object CMakeFiles/sender.dir/src/sender.cpp.o[0m
+[0.074s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[0.082s] [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/String.h: 没有那个文件或目录
+[0.083s]     1 | #include [01;31m[K"std_msgs/String.h"[m[K
+[0.083s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.083s] compilation terminated.
+[0.083s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76：CMakeFiles/listener.dir/src/listener.cpp.o] 错误 1
+[0.084s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/listener.dir/all] 错误 2
+[0.084s] gmake[1]: *** 正在等待未完成的任务....
+[2.501s] [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:[m[K In function ‘[01m[Kvoid publishMessage()[m[K’:
+[2.501s] [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:6:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.501s]     6 |   [01;31m[Kros[m[K::NodeHandle n;
+[2.501s]       |   [01;31m[K^~~[m[K
+[2.501s] [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:7:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.501s]     7 |   [01;31m[Kros[m[K::Publisher chatter_pub = n.advertise<std_msgs::String>("chatter", 1000);
+[2.501s]       |   [01;31m[K^~~[m[K
+[2.501s] [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:9:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ has not been declared
+[2.501s]     9 |   [01;31m[Kstd_msgs[m[K::String msg;
+[2.502s]       |   [01;31m[K^~~~~~~~[m[K
+[2.502s] [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:10:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[2.502s]    10 |   [01;31m[Kmsg[m[K.data = "Hello ROS!";
+[2.502s]       |   [01;31m[K^~~[m[K
+[2.503s] [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:10:3:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.504s] In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.504s]                  from [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:2[m[K:
+[2.504s] [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[2.504s]    27 | namespace [01;36m[Kmsg[m[K
+[2.504s]       |           [01;36m[K^~~[m[K
+[2.504s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[2.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+[2.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[2.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[2.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.505s]                  from [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:2[m[K:
+[2.505s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[2.505s]    27 | namespace [01;36m[Kmsg[m[K
+[2.505s]       |           [01;36m[K^~~[m[K
+[2.505s] In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+[2.505s]                  from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[2.505s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[2.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[2.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[2.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.507s]                  from [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:2[m[K:
+[2.507s] [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[2.507s]    27 | namespace [01;36m[Kmsg[m[K
+[2.507s]       |           [01;36m[K^~~[m[K
+[2.507s] [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:12:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.507s]    12 |   while ([01;31m[Kros[m[K::ok()) {
+[2.507s]       |          [01;31m[K^~~[m[K
+[2.507s] [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kchatter_pub[m[K’ was not declared in this scope
+[2.507s]    13 |     [01;31m[Kchatter_pub[m[K.publish(msg);
+[2.507s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.507s] [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.507s]    14 |     [01;31m[Kros[m[K::Duration(1).sleep();
+[2.507s]       |     [01;31m[K^~~[m[K
+[2.507s] [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.508s] [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:19:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.508s]    19 |   [01;31m[Kros[m[K::init(argc, argv, "subscriber_node");
+[2.508s]       |   [01;31m[K^~~[m[K
+[2.508s] [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:20:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.508s]    20 |   [01;31m[Kros[m[K::NodeHandle n;
+[2.508s]       |   [01;31m[K^~~[m[K
+[2.508s] [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:22:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.508s]    22 |   [01;31m[Kros[m[K::Subscriber sub = n.subscribe("chatter", 1000, chatterCallback);
+[2.508s]       |   [01;31m[K^~~[m[K
+[2.508s] [01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:24:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.508s]    24 |   [01;31m[Kros[m[K::spin();
+[2.508s]       |   [01;31m[K^~~[m[K
+[2.833s] gmake[2]: *** [CMakeFiles/sender.dir/build.make:76：CMakeFiles/sender.dir/src/sender.cpp.o] 错误 1
+[2.833s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/sender.dir/all] 错误 2
+[2.834s] gmake: *** [Makefile:146：all] 错误 2
+[2.835s] Invoked command in '/home/whaltze/rm/test/test1/build/cpp_1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/whaltze/rm/test/test1/build/cpp_1 -- -j8 -l8

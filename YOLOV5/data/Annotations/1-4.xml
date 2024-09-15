@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>1-4.jpg</filename>
+	<path>/home/whaltze/yolov5-master/VOCData/images/1-4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>805</width>
+		<height>823</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>one</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>176</xmin>
+			<ymin>164</ymin>
+			<xmax>577</xmax>
+			<ymax>677</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,38 @@
+[0.031s] Invoking command in '/home/whaltze/rm/patrol/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(rm) /usr/bin/cmake --build /home/whaltze/rm/patrol/build/livox_ros_driver2 -- -j8 -l8
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_c[0m
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2_node[0m
+[0.100s] [  1%] Built target livox_interfaces2__cpp
+[0.103s] [  8%] Built target livox_interfaces2__rosidl_generator_c
+[0.112s] [  8%] Built target ament_cmake_python_symlink_livox_ros_driver2
+[0.120s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_cpp[0m
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_cpp[0m
+[0.124s] [ 12%] Built target livox_ros_driver2_node
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_cpp[0m
+[0.144s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_c[0m
+[0.152s] [ 19%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[0.163s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_c[0m
+[0.163s] [ 26%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[0.170s] [ 33%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[0.170s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_c[0m
+[0.191s] [ 40%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[0.197s] [ 47%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[0.198s] [ 54%] Built target livox_interfaces2__rosidl_typesupport_c
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2[0m
+[0.242s] [ 54%] Built target livox_interfaces2
+[0.279s] [ 82%] Built target livox_ros_driver2
+[0.281s] [ 84%] Built target livox_interfaces2__py
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_py[0m
+[0.309s] [ 89%] Built target livox_interfaces2__rosidl_generator_py
+[0.322s] [35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.322s] [35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext[0m
+[0.323s] [35m[1mConsolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_c__pyext[0m
+[0.350s] [ 92%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[0.350s] [100%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[0.350s] [100%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[0.371s] running egg_info
+[0.384s] writing livox_ros_driver2.egg-info/PKG-INFO
+[0.384s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[0.385s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[0.419s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[0.420s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[0.440s] [100%] Built target ament_cmake_python_build_livox_ros_driver2_egg

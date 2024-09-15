@@ -1,0 +1,726 @@
+[0.000000] (-) TimerEvent: {}
+[0.000143] (costmap_converter_msgs) JobQueued: {'identifier': 'costmap_converter_msgs', 'dependencies': OrderedDict()}
+[0.000177] (fake_vel_transform) JobQueued: {'identifier': 'fake_vel_transform', 'dependencies': OrderedDict()}
+[0.000203] (imu_complementary_filter) JobQueued: {'identifier': 'imu_complementary_filter', 'dependencies': OrderedDict()}
+[0.000231] (linefit_ground_segmentation) JobQueued: {'identifier': 'linefit_ground_segmentation', 'dependencies': OrderedDict()}
+[0.000248] (livox_ros_driver2) JobQueued: {'identifier': 'livox_ros_driver2', 'dependencies': OrderedDict()}
+[0.000273] (livox_sdk2) JobQueued: {'identifier': 'livox_sdk2', 'dependencies': OrderedDict()}
+[0.000287] (pb_rm_simulation) JobQueued: {'identifier': 'pb_rm_simulation', 'dependencies': OrderedDict()}
+[0.000300] (pointcloud_to_laserscan) JobQueued: {'identifier': 'pointcloud_to_laserscan', 'dependencies': OrderedDict()}
+[0.000312] (rm_nav_bringup) JobQueued: {'identifier': 'rm_nav_bringup', 'dependencies': OrderedDict()}
+[0.000325] (rm_navigation) JobQueued: {'identifier': 'rm_navigation', 'dependencies': OrderedDict()}
+[0.000337] (costmap_converter) JobQueued: {'identifier': 'costmap_converter', 'dependencies': OrderedDict([('costmap_converter_msgs', '/home/whaltze/rm/patrol/install/costmap_converter_msgs')])}
+[0.000352] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/whaltze/rm/patrol/install/livox_ros_driver2')])}
+[0.000365] (icp_registration) JobQueued: {'identifier': 'icp_registration', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/whaltze/rm/patrol/install/livox_ros_driver2')])}
+[0.000378] (linefit_ground_segmentation_ros) JobQueued: {'identifier': 'linefit_ground_segmentation_ros', 'dependencies': OrderedDict([('linefit_ground_segmentation', '/home/whaltze/rm/patrol/install/linefit_ground_segmentation')])}
+[0.000392] (point_lio) JobQueued: {'identifier': 'point_lio', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/whaltze/rm/patrol/install/livox_ros_driver2')])}
+[0.000405] (ros2_livox_simulation) JobQueued: {'identifier': 'ros2_livox_simulation', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/whaltze/rm/patrol/install/livox_ros_driver2')])}
+[0.000418] (teb_msgs) JobQueued: {'identifier': 'teb_msgs', 'dependencies': OrderedDict([('costmap_converter_msgs', '/home/whaltze/rm/patrol/install/costmap_converter_msgs')])}
+[0.000431] (teb_local_planner) JobQueued: {'identifier': 'teb_local_planner', 'dependencies': OrderedDict([('costmap_converter_msgs', '/home/whaltze/rm/patrol/install/costmap_converter_msgs'), ('costmap_converter', '/home/whaltze/rm/patrol/install/costmap_converter'), ('teb_msgs', '/home/whaltze/rm/patrol/install/teb_msgs')])}
+[0.001987] (livox_ros_driver2) JobStarted: {'identifier': 'livox_ros_driver2'}
+[0.005960] (costmap_converter_msgs) JobStarted: {'identifier': 'costmap_converter_msgs'}
+[0.008593] (linefit_ground_segmentation) JobStarted: {'identifier': 'linefit_ground_segmentation'}
+[0.011574] (fake_vel_transform) JobStarted: {'identifier': 'fake_vel_transform'}
+[0.015189] (imu_complementary_filter) JobStarted: {'identifier': 'imu_complementary_filter'}
+[0.019356] (livox_sdk2) JobStarted: {'identifier': 'livox_sdk2'}
+[0.022463] (pb_rm_simulation) JobStarted: {'identifier': 'pb_rm_simulation'}
+[0.025542] (pointcloud_to_laserscan) JobStarted: {'identifier': 'pointcloud_to_laserscan'}
+[0.031941] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'cmake'}
+[0.032939] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'build'}
+[0.033581] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/whaltze/rm/patrol/build/livox_ros_driver2', '--', '-j8', '-l8'], 'cwd': '/home/whaltze/rm/patrol/build/livox_ros_driver2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(rm)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/whaltze/rm/patrol/pb_rmsimulation'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/whaltze/anaconda3/envs/rm/bin:/home/whaltze/anaconda3/condabin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/home/whaltze/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1768,unix/Ubuntu:/tmp/.ICE-unix/1768'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75299f4a_cf86_4f72_bbf0_1160efa67bd9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YHNFU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/whaltze/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'rm'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/patrol/build/livox_ros_driver2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/whaltze/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/whaltze/anaconda3/envs/rm'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.036652] (costmap_converter_msgs) JobProgress: {'identifier': 'costmap_converter_msgs', 'progress': 'cmake'}
+[0.037278] (costmap_converter_msgs) JobProgress: {'identifier': 'costmap_converter_msgs', 'progress': 'build'}
+[0.038640] (costmap_converter_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/whaltze/rm/patrol/build/costmap_converter_msgs', '--', '-j8', '-l8'], 'cwd': '/home/whaltze/rm/patrol/build/costmap_converter_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(rm)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/whaltze/rm/patrol/pb_rmsimulation'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/whaltze/anaconda3/envs/rm/bin:/home/whaltze/anaconda3/condabin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/home/whaltze/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1768,unix/Ubuntu:/tmp/.ICE-unix/1768'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75299f4a_cf86_4f72_bbf0_1160efa67bd9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YHNFU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/whaltze/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'rm'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/patrol/build/costmap_converter_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/whaltze/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/whaltze/anaconda3/envs/rm'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039475] (linefit_ground_segmentation) JobProgress: {'identifier': 'linefit_ground_segmentation', 'progress': 'cmake'}
+[0.039956] (linefit_ground_segmentation) JobProgress: {'identifier': 'linefit_ground_segmentation', 'progress': 'build'}
+[0.040735] (linefit_ground_segmentation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/whaltze/rm/patrol/build/linefit_ground_segmentation', '--', '-j8', '-l8'], 'cwd': '/home/whaltze/rm/patrol/build/linefit_ground_segmentation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(rm)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/whaltze/rm/patrol/pb_rmsimulation'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/whaltze/anaconda3/envs/rm/bin:/home/whaltze/anaconda3/condabin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/home/whaltze/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1768,unix/Ubuntu:/tmp/.ICE-unix/1768'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75299f4a_cf86_4f72_bbf0_1160efa67bd9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YHNFU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/whaltze/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'rm'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/patrol/build/linefit_ground_segmentation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/whaltze/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/whaltze/anaconda3/envs/rm'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.041651] (fake_vel_transform) JobProgress: {'identifier': 'fake_vel_transform', 'progress': 'cmake'}
+[0.042089] (fake_vel_transform) JobProgress: {'identifier': 'fake_vel_transform', 'progress': 'build'}
+[0.042857] (fake_vel_transform) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/whaltze/rm/patrol/build/fake_vel_transform', '--', '-j8', '-l8'], 'cwd': '/home/whaltze/rm/patrol/build/fake_vel_transform', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(rm)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/whaltze/rm/patrol/pb_rmsimulation'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/whaltze/anaconda3/envs/rm/bin:/home/whaltze/anaconda3/condabin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/home/whaltze/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1768,unix/Ubuntu:/tmp/.ICE-unix/1768'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75299f4a_cf86_4f72_bbf0_1160efa67bd9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YHNFU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/whaltze/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'rm'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/patrol/build/fake_vel_transform'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/whaltze/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/whaltze/anaconda3/envs/rm'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.043883] (imu_complementary_filter) JobProgress: {'identifier': 'imu_complementary_filter', 'progress': 'cmake'}
+[0.044212] (imu_complementary_filter) JobProgress: {'identifier': 'imu_complementary_filter', 'progress': 'build'}
+[0.045253] (imu_complementary_filter) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/whaltze/rm/patrol/build/imu_complementary_filter', '--', '-j8', '-l8'], 'cwd': '/home/whaltze/rm/patrol/build/imu_complementary_filter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(rm)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/whaltze/rm/patrol/pb_rmsimulation'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/whaltze/anaconda3/envs/rm/bin:/home/whaltze/anaconda3/condabin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/home/whaltze/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1768,unix/Ubuntu:/tmp/.ICE-unix/1768'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75299f4a_cf86_4f72_bbf0_1160efa67bd9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YHNFU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/whaltze/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'rm'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/patrol/build/imu_complementary_filter'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/whaltze/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/whaltze/anaconda3/envs/rm'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.046498] (livox_sdk2) JobProgress: {'identifier': 'livox_sdk2', 'progress': 'cmake'}
+[0.047734] (livox_sdk2) JobProgress: {'identifier': 'livox_sdk2', 'progress': 'build'}
+[0.047769] (livox_sdk2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/whaltze/rm/patrol/build/livox_sdk2', '--', '-j8', '-l8'], 'cwd': '/home/whaltze/rm/patrol/build/livox_sdk2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(rm)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/whaltze/rm/patrol/pb_rmsimulation'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/whaltze/anaconda3/envs/rm/bin:/home/whaltze/anaconda3/condabin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/home/whaltze/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1768,unix/Ubuntu:/tmp/.ICE-unix/1768'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75299f4a_cf86_4f72_bbf0_1160efa67bd9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YHNFU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/whaltze/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'rm'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/patrol/build/livox_sdk2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/whaltze/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/whaltze/anaconda3/envs/rm'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.049237] (pb_rm_simulation) JobProgress: {'identifier': 'pb_rm_simulation', 'progress': 'cmake'}
+[0.051486] (pb_rm_simulation) JobProgress: {'identifier': 'pb_rm_simulation', 'progress': 'build'}
+[0.051522] (pb_rm_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/whaltze/rm/patrol/build/pb_rm_simulation', '--', '-j8', '-l8'], 'cwd': '/home/whaltze/rm/patrol/build/pb_rm_simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(rm)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/whaltze/rm/patrol/pb_rmsimulation'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/whaltze/anaconda3/envs/rm/bin:/home/whaltze/anaconda3/condabin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/home/whaltze/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1768,unix/Ubuntu:/tmp/.ICE-unix/1768'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75299f4a_cf86_4f72_bbf0_1160efa67bd9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YHNFU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/whaltze/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'rm'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/patrol/build/pb_rm_simulation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/whaltze/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/whaltze/anaconda3/envs/rm'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.069674] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'cmake'}
+[0.069722] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'build'}
+[0.069739] (pointcloud_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/whaltze/rm/patrol/build/pointcloud_to_laserscan', '--', '-j8', '-l8'], 'cwd': '/home/whaltze/rm/patrol/build/pointcloud_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(rm)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/whaltze/rm/patrol/pb_rmsimulation'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/whaltze/anaconda3/envs/rm/bin:/home/whaltze/anaconda3/condabin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/home/whaltze/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1768,unix/Ubuntu:/tmp/.ICE-unix/1768'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75299f4a_cf86_4f72_bbf0_1160efa67bd9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YHNFU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/whaltze/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'rm'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/patrol/build/pointcloud_to_laserscan'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/whaltze/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/whaltze/anaconda3/envs/rm'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.083503] (fake_vel_transform) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fake_vel_transform\x1b[0m\n'}
+[0.092904] (imu_complementary_filter) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target complementary_filter\x1b[0m\n'}
+[0.093126] (costmap_converter_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target costmap_converter_msgs__rosidl_generator_c\x1b[0m\n'}
+[0.093901] (costmap_converter_msgs) StdoutLine: {'line': b'[  2%] Built target costmap_converter_msgs__cpp\n'}
+[0.094612] (fake_vel_transform) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fake_vel_transform_node\x1b[0m\n'}
+[0.098186] (livox_ros_driver2) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.099734] (-) TimerEvent: {}
+[0.103916] (linefit_ground_segmentation) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/bin.cc.o\x1b[0m\n'}
+[0.106797] (imu_complementary_filter) StdoutLine: {'line': b'[ 60%] Built target complementary_filter\n'}
+[0.113914] (livox_ros_driver2) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2_node.dir/rclcpp_components/node_main_livox_ros_driver2_node.cpp.o\x1b[0m\n'}
+[0.119931] (costmap_converter_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target costmap_converter_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.120090] (linefit_ground_segmentation) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o\x1b[0m\n'}
+[0.120224] (costmap_converter_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.120589] (linefit_ground_segmentation) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/viewer.cc.o\x1b[0m\n'}
+[0.120661] (linefit_ground_segmentation) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/ground_segmentation.cc.o\x1b[0m\n'}
+[0.121751] (livox_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lidar_sdk_static\x1b[0m\n'}
+[0.125988] (costmap_converter_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target costmap_converter_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.130138] (costmap_converter_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_costmap_converter_msgs\n'}
+[0.130293] (costmap_converter_msgs) StdoutLine: {'line': b'[ 12%] Built target costmap_converter_msgs__rosidl_generator_c\n'}
+[0.138895] (fake_vel_transform) StdoutLine: {'line': b'[ 50%] Built target fake_vel_transform_node\n'}
+[0.139097] (fake_vel_transform) StdoutLine: {'line': b'[100%] Built target fake_vel_transform\n'}
+[0.139178] (livox_ros_driver2) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.139881] (costmap_converter_msgs) StdoutLine: {'line': b'[ 23%] Built target costmap_converter_msgs__rosidl_typesupport_cpp\n'}
+[0.144198] (imu_complementary_filter) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target complementary_filter_node\x1b[0m\n'}
+[0.152701] (livox_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lidar_sdk_shared\x1b[0m\n'}
+[0.153032] (linefit_ground_segmentation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/bin.cc:1\x1b[m\x1b[K:\n'}
+[0.153182] (linefit_ground_segmentation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/bin.h:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kpcl/point_cloud.h: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.153263] (linefit_ground_segmentation) StderrLine: {'line': b'    6 | #include \x1b[01;31m\x1b[K<pcl/point_cloud.h>\x1b[m\x1b[K\n'}
+[0.153328] (linefit_ground_segmentation) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.153381] (linefit_ground_segmentation) StderrLine: {'line': b'compilation terminated.\n'}
+[0.160917] (linefit_ground_segmentation) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/linefit_ground_segmentation.dir/build.make:76\xef\xbc\x9aCMakeFiles/linefit_ground_segmentation.dir/src/bin.cc.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.161085] (linefit_ground_segmentation) StderrLine: {'line': b'gmake[2]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[0.161139] (livox_ros_driver2) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_livox_ros_driver2\n'}
+[0.161238] (costmap_converter_msgs) StdoutLine: {'line': b'[ 33%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.161881] (costmap_converter_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target costmap_converter_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.162012] (costmap_converter_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target costmap_converter_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.168828] (costmap_converter_msgs) StdoutLine: {'line': b'[ 43%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.185119] (pb_rm_simulation) CommandEnded: {'returncode': 0}
+[0.185428] (costmap_converter_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target costmap_converter_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[0.185586] (imu_complementary_filter) StdoutLine: {'line': b'[100%] Built target complementary_filter_node\n'}
+[0.188506] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o\x1b[0m\n'}
+[0.190893] (costmap_converter_msgs) StdoutLine: {'line': b'[ 53%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c\n'}
+[0.192060] (fake_vel_transform) CommandEnded: {'returncode': 0}
+[0.194247] (imu_complementary_filter) CommandEnded: {'returncode': 0}
+[0.201928] (-) TimerEvent: {}
+[0.202137] (livox_sdk2) StdoutLine: {'line': b'[ 42%] Built target livox_lidar_sdk_static\n'}
+[0.203908] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o\x1b[0m\n'}
+[0.204075] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o\x1b[0m\n'}
+[0.219049] (costmap_converter_msgs) StdoutLine: {'line': b'[ 64%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.219224] (costmap_converter_msgs) StdoutLine: {'line': b'[ 74%] Built target costmap_converter_msgs__rosidl_typesupport_c\n'}
+[0.225902] (livox_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lidar_quick_start\x1b[0m\n'}
+[0.230278] (livox_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_cmd_observer\x1b[0m\n'}
+[0.235081] (livox_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_lidars_upgrade\x1b[0m\n'}
+[0.235262] (livox_sdk2) StdoutLine: {'line': b'[ 84%] Built target livox_lidar_sdk_shared\n'}
+[0.247116] (pb_rm_simulation) JobProgress: {'identifier': 'pb_rm_simulation', 'progress': 'install'}
+[0.247228] (livox_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target logger\x1b[0m\n'}
+[0.248008] (livox_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target debug_point_cloud\x1b[0m\n'}
+[0.266069] (pb_rm_simulation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/whaltze/rm/patrol/build/pb_rm_simulation'], 'cwd': '/home/whaltze/rm/patrol/build/pb_rm_simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(rm)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/whaltze/rm/patrol/pb_rmsimulation'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/whaltze/anaconda3/envs/rm/bin:/home/whaltze/anaconda3/condabin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/home/whaltze/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1768,unix/Ubuntu:/tmp/.ICE-unix/1768'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75299f4a_cf86_4f72_bbf0_1160efa67bd9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YHNFU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/whaltze/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'rm'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/patrol/build/pb_rm_simulation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/whaltze/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/whaltze/anaconda3/envs/rm'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.266574] (livox_sdk2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target livox_lidar_rmc_time_sync\x1b[0m\n'}
+[0.274077] (linefit_ground_segmentation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/segment.h:7\x1b[m\x1b[K,\n'}
+[0.274223] (linefit_ground_segmentation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/segment.cc:1\x1b[m\x1b[K:\n'}
+[0.274280] (linefit_ground_segmentation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/bin.h:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kpcl/point_cloud.h: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.274330] (linefit_ground_segmentation) StderrLine: {'line': b'    6 | #include \x1b[01;31m\x1b[K<pcl/point_cloud.h>\x1b[m\x1b[K\n'}
+[0.274376] (linefit_ground_segmentation) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.274420] (linefit_ground_segmentation) StderrLine: {'line': b'compilation terminated.\n'}
+[0.276921] (livox_sdk2) StdoutLine: {'line': b'[ 86%] Built target multi_lidars_upgrade\n'}
+[0.277084] (livox_sdk2) StdoutLine: {'line': b'[ 89%] Built target debug_point_cloud\n'}
+[0.278667] (livox_sdk2) StdoutLine: {'line': b'[ 91%] Built target livox_lidar_quick_start\n'}
+[0.283150] (linefit_ground_segmentation) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/linefit_ground_segmentation.dir/build.make:104\xef\xbc\x9aCMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.287602] (pb_rm_simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.288508] (livox_sdk2) StdoutLine: {'line': b'[ 93%] Built target lidar_cmd_observer\n'}
+[0.291130] (pb_rm_simulation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.291555] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/launch/rm_simulation.launch.py\n'}
+[0.291757] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/urdf/simulation_waking_robot.xacro\n'}
+[0.292671] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/RMUC2024_world/meshes/RMUC_2024.stl\n'}
+[0.292758] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/RMUC2024_world/model.config\n'}
+[0.292858] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/RMUC2024_world/model.sdf\n'}
+[0.292910] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/RMUL2024_world/meshes/RMUL_2024.stl\n'}
+[0.292991] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/mid360.stl\n'}
+[0.293074] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle1/model.config\n'}
+[0.293122] (costmap_converter_msgs) StdoutLine: {'line': b'[ 74%] Built target costmap_converter_msgs\n'}
+[0.296874] (livox_sdk2) StdoutLine: {'line': b'[ 96%] Built target logger\n'}
+[0.298935] (fake_vel_transform) JobProgress: {'identifier': 'fake_vel_transform', 'progress': 'install'}
+[0.298976] (fake_vel_transform) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/whaltze/rm/patrol/build/fake_vel_transform'], 'cwd': '/home/whaltze/rm/patrol/build/fake_vel_transform', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(rm)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/whaltze/rm/patrol/pb_rmsimulation'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/whaltze/anaconda3/envs/rm/bin:/home/whaltze/anaconda3/condabin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/home/whaltze/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1768,unix/Ubuntu:/tmp/.ICE-unix/1768'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75299f4a_cf86_4f72_bbf0_1160efa67bd9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YHNFU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/whaltze/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'rm'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/patrol/build/fake_vel_transform'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/whaltze/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/whaltze/anaconda3/envs/rm'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.299297] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle1/model.sdf\n'}
+[0.299485] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle10/model.config\n'}
+[0.299556] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle10/model.sdf\n'}
+[0.299604] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle11/model.config\n'}
+[0.299658] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle11/model.sdf\n'}
+[0.299705] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle12/model.config\n'}
+[0.299756] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle12/model.sdf\n'}
+[0.299807] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle2/model.config\n'}
+[0.299865] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle2/model.sdf\n'}
+[0.299917] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle3/model.config\n'}
+[0.299963] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle3/model.sdf\n'}
+[0.300014] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle4/model.config\n'}
+[0.300060] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle4/model.sdf\n'}
+[0.300110] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle5/model.config\n'}
+[0.300156] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle5/model.sdf\n'}
+[0.300208] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle6/model.config\n'}
+[0.300257] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle6/model.sdf\n'}
+[0.300309] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle7/model.config\n'}
+[0.300355] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle7/model.sdf\n'}
+[0.300404] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle8/model.config\n'}
+[0.300455] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle8/model.sdf\n'}
+[0.300500] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle9/model.config\n'}
+[0.300548] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle9/model.sdf\n'}
+[0.300597] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/CMakeLists.txt\n'}
+[0.300649] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle1.so\n'}
+[0.300694] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle10.so\n'}
+[0.300747] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle11.so\n'}
+[0.300793] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle12.so\n'}
+[0.300946] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle2.so\n'}
+[0.300997] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle3.so\n'}
+[0.301171] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle4.so\n'}
+[0.301248] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle5.so\n'}
+[0.301297] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle6.so\n'}
+[0.301353] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle7.so\n'}
+[0.301407] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle8.so\n'}
+[0.301459] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle9.so\n'}
+[0.301528] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacles.so\n'}
+[0.301597] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle1.cc\n'}
+[0.301645] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle10.cc\n'}
+[0.301691] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle11.cc\n'}
+[0.301736] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle12.cc\n'}
+[0.301781] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle13.cc\n'}
+[0.301860] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle2.cc\n'}
+[0.301912] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle3.cc\n'}
+[0.301959] (-) TimerEvent: {}
+[0.306335] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle4.cc\n'}
+[0.306463] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle5.cc\n'}
+[0.306527] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle6.cc\n'}
+[0.306583] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle7.cc\n'}
+[0.306631] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle8.cc\n'}
+[0.306687] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle9.cc\n'}
+[0.306733] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacles.cc\n'}
+[0.306787] (livox_sdk2) StdoutLine: {'line': b'[100%] Built target livox_lidar_rmc_time_sync\n'}
+[0.306851] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/world/RMUC2024_world/RMUC2024_world.world\n'}
+[0.306945] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/world/RMUL2024_world/RMUL2024_world.world\n'}
+[0.306995] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/world/RMUL2024_world/RMUL2024_world_dynamic_obstacles.world\n'}
+[0.307058] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/world/RMUL2024_world/model.config\n'}
+[0.307107] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/world/RMUL2024_world/model.sdf\n'}
+[0.307410] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/rviz/rviz2.rviz\n'}
+[0.307610] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/ament_index/resource_index/package_run_dependencies/pb_rm_simulation\n'}
+[0.307970] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/ament_index/resource_index/parent_prefix_path/pb_rm_simulation\n'}
+[0.308028] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/environment/ament_prefix_path.sh\n'}
+[0.308089] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/environment/ament_prefix_path.dsv\n'}
+[0.308257] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/environment/path.sh\n'}
+[0.308334] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/environment/path.dsv\n'}
+[0.308479] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/local_setup.bash\n'}
+[0.309876] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/local_setup.sh\n'}
+[0.318015] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/local_setup.zsh\n'}
+[0.318139] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/local_setup.dsv\n'}
+[0.318192] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/package.dsv\n'}
+[0.318239] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/ament_index/resource_index/packages/pb_rm_simulation\n'}
+[0.318286] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/cmake/pb_rm_simulationConfig.cmake\n'}
+[0.318332] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/cmake/pb_rm_simulationConfig-version.cmake\n'}
+[0.318378] (pb_rm_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/package.xml\n'}
+[0.318424] (imu_complementary_filter) JobProgress: {'identifier': 'imu_complementary_filter', 'progress': 'install'}
+[0.318442] (imu_complementary_filter) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/whaltze/rm/patrol/build/imu_complementary_filter'], 'cwd': '/home/whaltze/rm/patrol/build/imu_complementary_filter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(rm)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/whaltze/rm/patrol/pb_rmsimulation'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/whaltze/anaconda3/envs/rm/bin:/home/whaltze/anaconda3/condabin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/home/whaltze/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1768,unix/Ubuntu:/tmp/.ICE-unix/1768'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75299f4a_cf86_4f72_bbf0_1160efa67bd9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YHNFU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/whaltze/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'rm'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/patrol/build/imu_complementary_filter'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/whaltze/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/whaltze/anaconda3/envs/rm'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.328594] (fake_vel_transform) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.328709] (fake_vel_transform) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.328875] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/lib/fake_vel_transform/fake_vel_transform_node\n'}
+[0.328937] (pb_rm_simulation) CommandEnded: {'returncode': 0}
+[0.333441] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/include/fake_vel_transform/fake_vel_transform.hpp\n'}
+[0.351985] (costmap_converter_msgs) StdoutLine: {'line': b'[ 76%] Built target costmap_converter_msgs__py\n'}
+[0.357691] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/environment/library_path.sh\n'}
+[0.375242] (imu_complementary_filter) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.375436] (imu_complementary_filter) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.375623] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/lib/imu_complementary_filter/complementary_filter_node\n'}
+[0.375693] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/include/imu_complementary_filter/complementary_filter.h\n'}
+[0.375742] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/include/imu_complementary_filter/complementary_filter_ros.h\n'}
+[0.375928] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/environment/library_path.dsv\n'}
+[0.376283] (livox_sdk2) CommandEnded: {'returncode': 0}
+[0.379195] (costmap_converter_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target costmap_converter_msgs__rosidl_generator_py\x1b[0m\n'}
+[0.390952] (linefit_ground_segmentation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/segment.h:7\x1b[m\x1b[K,\n'}
+[0.391139] (linefit_ground_segmentation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/ground_segmentation.h:6\x1b[m\x1b[K,\n'}
+[0.391227] (linefit_ground_segmentation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/ground_segmentation.cc:1\x1b[m\x1b[K:\n'}
+[0.391298] (linefit_ground_segmentation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/bin.h:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kpcl/point_cloud.h: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.391369] (linefit_ground_segmentation) StderrLine: {'line': b'    6 | #include \x1b[01;31m\x1b[K<pcl/point_cloud.h>\x1b[m\x1b[K\n'}
+[0.391435] (linefit_ground_segmentation) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.391499] (linefit_ground_segmentation) StderrLine: {'line': b'compilation terminated.\n'}
+[0.391564] (linefit_ground_segmentation) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/linefit_ground_segmentation.dir/build.make:90\xef\xbc\x9aCMakeFiles/linefit_ground_segmentation.dir/src/ground_segmentation.cc.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.392633] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/lib/libfake_vel_transform.so\n'}
+[0.398974] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/launch/complementary_filter.launch.py\n'}
+[0.402053] (-) TimerEvent: {}
+[0.403933] (linefit_ground_segmentation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/viewer.cc:1\x1b[m\x1b[K:\n'}
+[0.404108] (linefit_ground_segmentation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/viewer.h:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kpcl/visualization/pcl_visualizer.h: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.404206] (linefit_ground_segmentation) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K<pcl/visualization/pcl_visualizer.h>\x1b[m\x1b[K\n'}
+[0.404284] (linefit_ground_segmentation) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.404358] (linefit_ground_segmentation) StderrLine: {'line': b'compilation terminated.\n'}
+[0.405115] (linefit_ground_segmentation) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/linefit_ground_segmentation.dir/build.make:118\xef\xbc\x9aCMakeFiles/linefit_ground_segmentation.dir/src/viewer.cc.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.405475] (linefit_ground_segmentation) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138\xef\xbc\x9aCMakeFiles/linefit_ground_segmentation.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[0.406561] (linefit_ground_segmentation) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[0.407883] (costmap_converter_msgs) StdoutLine: {'line': b'[ 84%] Built target costmap_converter_msgs__rosidl_generator_py\n'}
+[0.408660] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/launch/fake_vel_transform.launch.py\n'}
+[0.417179] (linefit_ground_segmentation) CommandEnded: {'returncode': 2}
+[0.428316] (costmap_converter_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target costmap_converter_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.428459] (costmap_converter_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target costmap_converter_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.428548] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/environment/library_path.sh\n'}
+[0.428702] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/ament_index/resource_index/package_run_dependencies/fake_vel_transform\n'}
+[0.442677] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/ament_index/resource_index/parent_prefix_path/fake_vel_transform\n'}
+[0.455991] (costmap_converter_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target costmap_converter_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.464322] (pb_rm_simulation) JobEnded: {'identifier': 'pb_rm_simulation', 'rc': 0}
+[0.465278] (rm_nav_bringup) JobStarted: {'identifier': 'rm_nav_bringup'}
+[0.465364] (costmap_converter_msgs) StdoutLine: {'line': b'[ 89%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.465468] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/environment/library_path.dsv\n'}
+[0.471668] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/environment/ament_prefix_path.sh\n'}
+[0.471929] (costmap_converter_msgs) StdoutLine: {'line': b'[ 94%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.484744] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/environment/ament_prefix_path.dsv\n'}
+[0.485551] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/ament_index/resource_index/package_run_dependencies/imu_complementary_filter\n'}
+[0.485684] (costmap_converter_msgs) StdoutLine: {'line': b'[100%] Built target costmap_converter_msgs__rosidl_typesupport_c__pyext\n'}
+[0.490098] (livox_sdk2) JobProgress: {'identifier': 'livox_sdk2', 'progress': 'install'}
+[0.490213] (costmap_converter_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.490513] (livox_sdk2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/whaltze/rm/patrol/build/livox_sdk2'], 'cwd': '/home/whaltze/rm/patrol/build/livox_sdk2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(rm)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/whaltze/rm/patrol/pb_rmsimulation'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/whaltze/anaconda3/envs/rm/bin:/home/whaltze/anaconda3/condabin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/home/whaltze/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1768,unix/Ubuntu:/tmp/.ICE-unix/1768'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75299f4a_cf86_4f72_bbf0_1160efa67bd9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YHNFU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/whaltze/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'rm'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/patrol/build/livox_sdk2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/whaltze/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/whaltze/anaconda3/envs/rm'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.498073] (rm_nav_bringup) JobProgress: {'identifier': 'rm_nav_bringup', 'progress': 'cmake'}
+[0.499542] (rm_nav_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_nav_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/whaltze/rm/patrol/install/rm_nav_bringup'], 'cwd': '/home/whaltze/rm/patrol/build/rm_nav_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(rm)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/whaltze/rm/patrol/pb_rmsimulation'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/whaltze/anaconda3/envs/rm/bin:/home/whaltze/anaconda3/condabin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/home/whaltze/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1768,unix/Ubuntu:/tmp/.ICE-unix/1768'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75299f4a_cf86_4f72_bbf0_1160efa67bd9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YHNFU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/whaltze/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'rm'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/patrol/build/rm_nav_bringup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/whaltze/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=568e5e21f98daeb864a41f3166e41a7e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/whaltze/anaconda3/envs/rm'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.502132] (-) TimerEvent: {}
+[0.506633] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/environment/path.sh\n'}
+[0.509165] (livox_sdk2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.510757] (livox_ros_driver2) StdoutLine: {'line': b'running egg_info\n'}
+[0.510882] (livox_ros_driver2) StdoutLine: {'line': b'creating livox_ros_driver2.egg-info\n'}
+[0.511469] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/ament_index/resource_index/parent_prefix_path/imu_complementary_filter\n'}
+[0.511598] (costmap_converter_msgs) StdoutLine: {'line': b'writing costmap_converter_msgs.egg-info/PKG-INFO\n'}
+[0.512128] (costmap_converter_msgs) StdoutLine: {'line': b'writing dependency_links to costmap_converter_msgs.egg-info/dependency_links.txt\n'}
+[0.512647] (costmap_converter_msgs) StdoutLine: {'line': b'writing top-level names to costmap_converter_msgs.egg-info/top_level.txt\n'}
+[0.513534] (livox_sdk2) StdoutLine: {'line': b'-- Installing: /home/whaltze/rm/patrol/install/livox_sdk2/lib/liblivox_lidar_sdk_static.a\n'}
+[0.526511] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/environment/ament_prefix_path.sh\n'}
+[0.527423] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/environment/path.dsv\n'}
+[0.541472] (livox_ros_driver2) StdoutLine: {'line': b'writing livox_ros_driver2.egg-info/PKG-INFO\n'}
+[0.541659] (livox_ros_driver2) StdoutLine: {'line': b'writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt\n'}
+[0.544904] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/local_setup.bash\n'}
+[0.545060] (livox_ros_driver2) StdoutLine: {'line': b'writing top-level names to livox_ros_driver2.egg-info/top_level.txt\n'}
+[0.545145] (livox_ros_driver2) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[0.550120] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/environment/ament_prefix_path.dsv\n'}
+[0.561079] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/local_setup.sh\n'}
+[0.565239] (costmap_converter_msgs) StdoutLine: {'line': b"reading manifest file 'costmap_converter_msgs.egg-info/SOURCES.txt'\n"}
+[0.565926] (livox_sdk2) StdoutLine: {'line': b'-- Installing: /home/whaltze/rm/patrol/install/livox_sdk2/include/livox_lidar_def.h\n'}
+[0.566103] (livox_sdk2) StdoutLine: {'line': b'-- Installing: /home/whaltze/rm/patrol/install/livox_sdk2/include/livox_lidar_api.h\n'}
+[0.566166] (livox_sdk2) StdoutLine: {'line': b'-- Installing: /home/whaltze/rm/patrol/install/livox_sdk2/include/livox_lidar_cfg.h\n'}
+[0.566215] (livox_sdk2) StdoutLine: {'line': b'-- Installing: /home/whaltze/rm/patrol/install/livox_sdk2/lib/liblivox_lidar_sdk_shared.so\n'}
+[0.566453] (costmap_converter_msgs) StdoutLine: {'line': b"writing manifest file 'costmap_converter_msgs.egg-info/SOURCES.txt'\n"}
+[0.580991] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/environment/path.sh\n'}
+[0.581957] (linefit_ground_segmentation) JobEnded: {'identifier': 'linefit_ground_segmentation', 'rc': 2}
+[0.584286] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/local_setup.zsh\n'}
+[0.588837] (livox_sdk2) JobEnded: {'identifier': 'livox_sdk2', 'rc': 'SIGINT'}
+[0.600608] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/local_setup.dsv\n'}
+[0.601147] (costmap_converter_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_costmap_converter_msgs_egg\n'}
+[0.601684] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/environment/path.dsv\n'}
+[0.602200] (-) TimerEvent: {}
+[0.616871] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.bash\n'}
+[0.617028] (livox_ros_driver2) StdoutLine: {'line': b"reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[0.617140] (livox_ros_driver2) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[0.623774] (rm_nav_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.624687] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/package.dsv\n'}
+[0.632211] (livox_ros_driver2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o\x1b[0m\n'}
+[0.636229] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.sh\n'}
+[0.636706] (costmap_converter_msgs) JobEnded: {'identifier': 'costmap_converter_msgs', 'rc': 'SIGINT'}
+[0.640536] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/ament_index/resource_index/packages/fake_vel_transform\n'}
+[0.644119] (livox_ros_driver2) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o\x1b[0m\n'}
+[0.645125] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.zsh\n'}
+[0.661629] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.dsv\n'}
+[0.661855] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/ament_index/resource_index/rclcpp_components/fake_vel_transform\n'}
+[0.664651] (livox_ros_driver2) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_livox_ros_driver2_egg\n'}
+[0.681021] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/package.dsv\n'}
+[0.688361] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.696844] (livox_ros_driver2) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so\x1b[0m\n'}
+[0.702620] (-) TimerEvent: {}
+[0.702916] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.707229] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/ament_index/resource_index/packages/imu_complementary_filter\n'}
+[0.711801] (rm_nav_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.714523] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.717514] (livox_ros_driver2) StdoutLine: {'line': b'[ 10%] Built target livox_interfaces2__cpp\n'}
+[0.723199] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.727890] (rm_nav_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.732338] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/cmake/fake_vel_transformConfig.cmake\n'}
+[0.735771] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.739422] (livox_ros_driver2) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.739586] (livox_ros_driver2) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.744860] (livox_ros_driver2) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[0.748788] (livox_ros_driver2) StdoutLine: {'line': b'[ 15%] Built target livox_interfaces2__rosidl_generator_c\n'}
+[0.750523] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/cmake/fake_vel_transformConfig-version.cmake\n'}
+[0.750735] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.764345] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/cmake/imu_complementary_filterConfig.cmake\n'}
+[0.764550] (fake_vel_transform) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/fake_vel_transform/share/fake_vel_transform/package.xml\n'}
+[0.765999] (livox_ros_driver2) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[0.772861] (livox_ros_driver2) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.775183] (livox_ros_driver2) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.781268] (fake_vel_transform) JobEnded: {'identifier': 'fake_vel_transform', 'rc': 'SIGINT'}
+[0.785158] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/cmake/imu_complementary_filterConfig-version.cmake\n'}
+[0.802696] (-) TimerEvent: {}
+[0.803621] (imu_complementary_filter) StdoutLine: {'line': b'-- Symlinking: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/package.xml\n'}
+[0.821674] (imu_complementary_filter) StdoutLine: {'line': b'-- Installing: /home/whaltze/rm/patrol/install/imu_complementary_filter/lib/libcomplementary_filter.so\n'}
+[0.835059] (imu_complementary_filter) StdoutLine: {'line': b'-- Set runtime path of "/home/whaltze/rm/patrol/install/imu_complementary_filter/lib/libcomplementary_filter.so" to ""\n'}
+[0.835227] (imu_complementary_filter) StdoutLine: {'line': b'-- Installing: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport.cmake\n'}
+[0.835348] (imu_complementary_filter) StdoutLine: {'line': b'-- Installing: /home/whaltze/rm/patrol/install/imu_complementary_filter/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport-noconfig.cmake\n'}
+[0.835937] (imu_complementary_filter) JobEnded: {'identifier': 'imu_complementary_filter', 'rc': 'SIGINT'}
+[0.862911] (rm_nav_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.879958] (rm_nav_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.880243] (rm_nav_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.880664] (rm_nav_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.886927] (rm_nav_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.902794] (-) TimerEvent: {}
+[1.003099] (-) TimerEvent: {}
+[1.098885] (rm_nav_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.103915] (-) TimerEvent: {}
+[1.104872] (rm_nav_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.105751] (rm_nav_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.115965] (rm_nav_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.116124] (rm_nav_bringup) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.136097] (livox_ros_driver2) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o\x1b[0m\n'}
+[1.150462] (livox_ros_driver2) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[1.196580] (livox_ros_driver2) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o\x1b[0m\n'}
+[1.207581] (-) TimerEvent: {}
+[1.216460] (livox_ros_driver2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o\x1b[0m\n'}
+[1.224196] (livox_ros_driver2) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o\x1b[0m\n'}
+[1.252942] (livox_ros_driver2) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o\x1b[0m\n'}
+[1.257885] (livox_ros_driver2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o\x1b[0m\n'}
+[1.288874] (livox_ros_driver2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o\x1b[0m\n'}
+[1.307771] (-) TimerEvent: {}
+[1.313919] (livox_ros_driver2) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[1.371950] (livox_ros_driver2) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.378948] (livox_ros_driver2) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.407874] (-) TimerEvent: {}
+[1.449372] (livox_ros_driver2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o\x1b[0m\n'}
+[1.451421] (livox_ros_driver2) StdoutLine: {'line': b'[ 42%] Built target livox_interfaces2__rosidl_typesupport_introspection_c\n'}
+[1.469456] (livox_ros_driver2) StdoutLine: {'line': b'[ 42%] Built target livox_interfaces2__rosidl_typesupport_c\n'}
+[1.486930] (livox_ros_driver2) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[1.494899] (livox_ros_driver2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[1.503952] (livox_ros_driver2) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.507972] (-) TimerEvent: {}
+[1.608243] (-) TimerEvent: {}
+[1.621593] (livox_ros_driver2) StdoutLine: {'line': b'[ 47%] Built target livox_interfaces2__rosidl_typesupport_cpp\n'}
+[1.630367] (rm_nav_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.643099] (livox_ros_driver2) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o\x1b[0m\n'}
+[1.673575] (livox_ros_driver2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o\x1b[0m\n'}
+[1.684906] (rm_nav_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.708354] (-) TimerEvent: {}
+[1.709263] (rm_nav_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.766972] (livox_ros_driver2) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o\x1b[0m\n'}
+[1.773915] (rm_nav_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.779763] (rm_nav_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[1.779999] (rm_nav_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/whaltze/rm/patrol/build/rm_nav_bringup\n'}
+[1.801899] (rm_nav_bringup) JobEnded: {'identifier': 'rm_nav_bringup', 'rc': 'SIGINT'}
+[1.808472] (-) TimerEvent: {}
+[1.908776] (-) TimerEvent: {}
+[2.010889] (-) TimerEvent: {}
+[2.051062] (livox_ros_driver2) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o\x1b[0m\n'}
+[2.100489] (livox_ros_driver2) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.111206] (-) TimerEvent: {}
+[2.124557] (livox_ros_driver2) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.185348] (livox_ros_driver2) StdoutLine: {'line': b'[ 57%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp\n'}
+[2.205457] (livox_ros_driver2) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o\x1b[0m\n'}
+[2.211319] (-) TimerEvent: {}
+[2.297252] (livox_ros_driver2) StdoutLine: {'line': b'[ 59%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c\n'}
+[2.311430] (-) TimerEvent: {}
+[2.328979] (livox_ros_driver2) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o\x1b[0m\n'}
+[2.334973] (livox_ros_driver2) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.406892] (livox_ros_driver2) StdoutLine: {'line': b'[ 63%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp\n'}
+[2.411523] (-) TimerEvent: {}
+[2.415928] (livox_ros_driver2) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o\x1b[0m\n'}
+[2.512887] (-) TimerEvent: {}
+[2.613211] (-) TimerEvent: {}
+[2.713658] (-) TimerEvent: {}
+[2.814068] (-) TimerEvent: {}
+[2.914374] (-) TimerEvent: {}
+[3.014734] (-) TimerEvent: {}
+[3.122903] (-) TimerEvent: {}
+[3.223235] (-) TimerEvent: {}
+[3.323576] (-) TimerEvent: {}
+[3.424025] (-) TimerEvent: {}
+[3.433916] (livox_ros_driver2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o\x1b[0m\n'}
+[3.504983] (livox_ros_driver2) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o\x1b[0m\n'}
+[3.524151] (-) TimerEvent: {}
+[3.575881] (livox_ros_driver2) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o\x1b[0m\n'}
+[3.624263] (-) TimerEvent: {}
+[3.692401] (livox_ros_driver2) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o\x1b[0m\n'}
+[3.724395] (-) TimerEvent: {}
+[3.789734] (livox_ros_driver2) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o\x1b[0m\n'}
+[3.824606] (-) TimerEvent: {}
+[3.926916] (-) TimerEvent: {}
+[3.978880] (livox_ros_driver2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o\x1b[0m\n'}
+[4.027024] (-) TimerEvent: {}
+[4.127388] (-) TimerEvent: {}
+[4.230911] (-) TimerEvent: {}
+[4.331296] (-) TimerEvent: {}
+[4.380881] (livox_ros_driver2) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o\x1b[0m\n'}
+[4.431425] (-) TimerEvent: {}
+[4.447095] (livox_ros_driver2) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable livox_ros_driver2_node\x1b[0m\n'}
+[4.531530] (-) TimerEvent: {}
+[4.631852] (-) TimerEvent: {}
+[4.645597] (livox_ros_driver2) StdoutLine: {'line': b'[ 78%] Built target livox_ros_driver2_node\n'}
+[4.654535] (livox_ros_driver2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o\x1b[0m\n'}
+[4.731986] (-) TimerEvent: {}
+[4.832294] (-) TimerEvent: {}
+[4.932737] (-) TimerEvent: {}
+[5.003727] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX executable pointcloud_to_laserscan_node\x1b[0m\n'}
+[5.032856] (-) TimerEvent: {}
+[5.090043] (livox_ros_driver2) StdoutLine: {'line': b'[ 80%] Built target livox_interfaces2\n'}
+[5.131429] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 40%] Built target pointcloud_to_laserscan_node\n'}
+[5.134921] (-) TimerEvent: {}
+[5.146951] (livox_ros_driver2) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.235021] (-) TimerEvent: {}
+[5.335387] (-) TimerEvent: {}
+[5.435679] (-) TimerEvent: {}
+[5.515181] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable laserscan_to_pointcloud_node\x1b[0m\n'}
+[5.538898] (-) TimerEvent: {}
+[5.630989] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 50%] Built target laserscan_to_pointcloud_node\n'}
+[5.639029] (-) TimerEvent: {}
+[5.704857] (livox_ros_driver2) StdoutLine: {'line': b'[ 82%] Built target livox_interfaces2__py\n'}
+[5.724707] (livox_ros_driver2) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o\x1b[0m\n'}
+[5.726807] (livox_ros_driver2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o\x1b[0m\n'}
+[5.739222] (-) TimerEvent: {}
+[5.825991] (livox_ros_driver2) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so\x1b[0m\n'}
+[5.839326] (-) TimerEvent: {}
+[5.862247] (livox_ros_driver2) StdoutLine: {'line': b'[ 87%] Built target livox_interfaces2__rosidl_generator_py\n'}
+[5.885085] (livox_ros_driver2) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.885298] (livox_ros_driver2) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.885524] (livox_ros_driver2) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.939569] (-) TimerEvent: {}
+[5.978971] (livox_ros_driver2) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.979610] (livox_ros_driver2) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.993995] (livox_ros_driver2) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.020284] (livox_ros_driver2) StdoutLine: {'line': b'[ 98%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.026907] (livox_ros_driver2) StdoutLine: {'line': b'[ 98%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext\n'}
+[6.030458] (livox_ros_driver2) StdoutLine: {'line': b'[ 98%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext\n'}
+[6.039856] (-) TimerEvent: {}
+[6.140261] (-) TimerEvent: {}
+[6.240657] (-) TimerEvent: {}
+[6.341271] (-) TimerEvent: {}
+[6.441716] (-) TimerEvent: {}
+[6.542206] (-) TimerEvent: {}
+[6.642623] (-) TimerEvent: {}
+[6.743268] (-) TimerEvent: {}
+[6.843619] (-) TimerEvent: {}
+[6.944056] (-) TimerEvent: {}
+[7.044414] (-) TimerEvent: {}
+[7.144919] (-) TimerEvent: {}
+[7.245282] (-) TimerEvent: {}
+[7.345598] (-) TimerEvent: {}
+[7.445918] (-) TimerEvent: {}
+[7.546212] (-) TimerEvent: {}
+[7.646671] (-) TimerEvent: {}
+[7.747095] (-) TimerEvent: {}
+[7.847424] (-) TimerEvent: {}
+[7.947820] (-) TimerEvent: {}
+[8.048225] (-) TimerEvent: {}
+[8.148572] (-) TimerEvent: {}
+[8.249073] (-) TimerEvent: {}
+[8.349394] (-) TimerEvent: {}
+[8.450013] (-) TimerEvent: {}
+[8.550363] (-) TimerEvent: {}
+[8.650680] (-) TimerEvent: {}
+[8.751129] (-) TimerEvent: {}
+[8.851808] (-) TimerEvent: {}
+[8.952236] (-) TimerEvent: {}
+[9.052676] (-) TimerEvent: {}
+[9.153164] (-) TimerEvent: {}
+[9.253552] (-) TimerEvent: {}
+[9.353847] (-) TimerEvent: {}
+[9.454215] (-) TimerEvent: {}
+[9.554672] (-) TimerEvent: {}
+[9.655039] (-) TimerEvent: {}
+[9.755664] (-) TimerEvent: {}
+[9.856259] (-) TimerEvent: {}
+[9.956785] (-) TimerEvent: {}
+[10.057299] (-) TimerEvent: {}
+[10.157640] (-) TimerEvent: {}
+[10.258084] (-) TimerEvent: {}
+[10.358446] (-) TimerEvent: {}
+[10.458784] (-) TimerEvent: {}
+[10.559157] (-) TimerEvent: {}
+[10.659571] (-) TimerEvent: {}
+[10.760081] (-) TimerEvent: {}
+[10.860565] (-) TimerEvent: {}
+[10.961022] (-) TimerEvent: {}
+[11.061411] (-) TimerEvent: {}
+[11.161755] (-) TimerEvent: {}
+[11.164582] (livox_ros_driver2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2.so\x1b[0m\n'}
+[11.261881] (-) TimerEvent: {}
+[11.362201] (-) TimerEvent: {}
+[11.462536] (-) TimerEvent: {}
+[11.562988] (-) TimerEvent: {}
+[11.663386] (-) TimerEvent: {}
+[11.763737] (-) TimerEvent: {}
+[11.864073] (-) TimerEvent: {}
+[11.876281] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Built target livox_ros_driver2\n'}
+[11.885687] (livox_ros_driver2) JobEnded: {'identifier': 'livox_ros_driver2', 'rc': 'SIGINT'}
+[11.964291] (-) TimerEvent: {}
+[12.064632] (-) TimerEvent: {}
+[12.165035] (-) TimerEvent: {}
+[12.265502] (-) TimerEvent: {}
+[12.365952] (-) TimerEvent: {}
+[12.466301] (-) TimerEvent: {}
+[12.566686] (-) TimerEvent: {}
+[12.667078] (-) TimerEvent: {}
+[12.767398] (-) TimerEvent: {}
+[12.867796] (-) TimerEvent: {}
+[12.968202] (-) TimerEvent: {}
+[13.068650] (-) TimerEvent: {}
+[13.169028] (-) TimerEvent: {}
+[13.269539] (-) TimerEvent: {}
+[13.369924] (-) TimerEvent: {}
+[13.470263] (-) TimerEvent: {}
+[13.570798] (-) TimerEvent: {}
+[13.671120] (-) TimerEvent: {}
+[13.771448] (-) TimerEvent: {}
+[13.871823] (-) TimerEvent: {}
+[13.972174] (-) TimerEvent: {}
+[14.072479] (-) TimerEvent: {}
+[14.172853] (-) TimerEvent: {}
+[14.273302] (-) TimerEvent: {}
+[14.373661] (-) TimerEvent: {}
+[14.474001] (-) TimerEvent: {}
+[14.574419] (-) TimerEvent: {}
+[14.674855] (-) TimerEvent: {}
+[14.775241] (-) TimerEvent: {}
+[14.875644] (-) TimerEvent: {}
+[14.976133] (-) TimerEvent: {}
+[15.076439] (-) TimerEvent: {}
+[15.147310] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library liblaserscan_to_pointcloud.so\x1b[0m\n'}
+[15.176757] (-) TimerEvent: {}
+[15.277089] (-) TimerEvent: {}
+[15.311247] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 60%] Built target laserscan_to_pointcloud\n'}
+[15.329917] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o\x1b[0m\n'}
+[15.377295] (-) TimerEvent: {}
+[15.477805] (-) TimerEvent: {}
+[15.578180] (-) TimerEvent: {}
+[15.678525] (-) TimerEvent: {}
+[15.778863] (-) TimerEvent: {}
+[15.879183] (-) TimerEvent: {}
+[15.979536] (-) TimerEvent: {}
+[16.079949] (-) TimerEvent: {}
+[16.180295] (-) TimerEvent: {}
+[16.280733] (-) TimerEvent: {}
+[16.381185] (-) TimerEvent: {}
+[16.481608] (-) TimerEvent: {}
+[16.582118] (-) TimerEvent: {}
+[16.682627] (-) TimerEvent: {}
+[16.782984] (-) TimerEvent: {}
+[16.883373] (-) TimerEvent: {}
+[16.983747] (-) TimerEvent: {}
+[17.084208] (-) TimerEvent: {}
+[17.184640] (-) TimerEvent: {}
+[17.285121] (-) TimerEvent: {}
+[17.385485] (-) TimerEvent: {}
+[17.485823] (-) TimerEvent: {}
+[17.586215] (-) TimerEvent: {}
+[17.686584] (-) TimerEvent: {}
+[17.786952] (-) TimerEvent: {}
+[17.887366] (-) TimerEvent: {}
+[17.987734] (-) TimerEvent: {}
+[18.088240] (-) TimerEvent: {}
+[18.188584] (-) TimerEvent: {}
+[18.288918] (-) TimerEvent: {}
+[18.389233] (-) TimerEvent: {}
+[18.489624] (-) TimerEvent: {}
+[18.590101] (-) TimerEvent: {}
+[18.690450] (-) TimerEvent: {}
+[18.791023] (-) TimerEvent: {}
+[18.891385] (-) TimerEvent: {}
+[18.991861] (-) TimerEvent: {}
+[19.092293] (-) TimerEvent: {}
+[19.192729] (-) TimerEvent: {}
+[19.293195] (-) TimerEvent: {}
+[19.393652] (-) TimerEvent: {}
+[19.494160] (-) TimerEvent: {}
+[19.594524] (-) TimerEvent: {}
+[19.695016] (-) TimerEvent: {}
+[19.795440] (-) TimerEvent: {}
+[19.895812] (-) TimerEvent: {}
+[19.996191] (-) TimerEvent: {}
+[20.096688] (-) TimerEvent: {}
+[20.197087] (-) TimerEvent: {}
+[20.297473] (-) TimerEvent: {}
+[20.397928] (-) TimerEvent: {}
+[20.498404] (-) TimerEvent: {}
+[20.598894] (-) TimerEvent: {}
+[20.699339] (-) TimerEvent: {}
+[20.799883] (-) TimerEvent: {}
+[20.900315] (-) TimerEvent: {}
+[21.000758] (-) TimerEvent: {}
+[21.101325] (-) TimerEvent: {}
+[21.201858] (-) TimerEvent: {}
+[21.302413] (-) TimerEvent: {}
+[21.403506] (-) TimerEvent: {}
+[21.503861] (-) TimerEvent: {}
+[21.604270] (-) TimerEvent: {}
+[21.704701] (-) TimerEvent: {}
+[21.805053] (-) TimerEvent: {}
+[21.905386] (-) TimerEvent: {}
+[22.005804] (-) TimerEvent: {}
+[22.106230] (-) TimerEvent: {}
+[22.206556] (-) TimerEvent: {}
+[22.306913] (-) TimerEvent: {}
+[22.407329] (-) TimerEvent: {}
+[22.507730] (-) TimerEvent: {}
+[22.608123] (-) TimerEvent: {}
+[22.708480] (-) TimerEvent: {}
+[22.808865] (-) TimerEvent: {}
+[22.909200] (-) TimerEvent: {}
+[23.009600] (-) TimerEvent: {}
+[23.109969] (-) TimerEvent: {}
+[23.210344] (-) TimerEvent: {}
+[23.310817] (-) TimerEvent: {}
+[23.411296] (-) TimerEvent: {}
+[23.511664] (-) TimerEvent: {}
+[23.612037] (-) TimerEvent: {}
+[23.712387] (-) TimerEvent: {}
+[23.812728] (-) TimerEvent: {}
+[23.913235] (-) TimerEvent: {}
+[24.013545] (-) TimerEvent: {}
+[24.113994] (-) TimerEvent: {}
+[24.214640] (-) TimerEvent: {}
+[24.315299] (-) TimerEvent: {}
+[24.415765] (-) TimerEvent: {}
+[24.516154] (-) TimerEvent: {}
+[24.616479] (-) TimerEvent: {}
+[24.716842] (-) TimerEvent: {}
+[24.817230] (-) TimerEvent: {}
+[24.882243] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libpointcloud_to_laserscan.so\x1b[0m\n'}
+[24.917479] (-) TimerEvent: {}
+[25.017794] (-) TimerEvent: {}
+[25.025078] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 80%] Built target pointcloud_to_laserscan\n'}
+[25.043456] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o\x1b[0m\n'}
+[25.117969] (-) TimerEvent: {}
+[25.218311] (-) TimerEvent: {}
+[25.318658] (-) TimerEvent: {}
+[25.419010] (-) TimerEvent: {}
+[25.519359] (-) TimerEvent: {}
+[25.619976] (-) TimerEvent: {}
+[25.720508] (-) TimerEvent: {}
+[25.820853] (-) TimerEvent: {}
+[25.921238] (-) TimerEvent: {}
+[26.021652] (-) TimerEvent: {}
+[26.122163] (-) TimerEvent: {}
+[26.222500] (-) TimerEvent: {}
+[26.322820] (-) TimerEvent: {}
+[26.423278] (-) TimerEvent: {}
+[26.523574] (-) TimerEvent: {}
+[26.623872] (-) TimerEvent: {}
+[26.724206] (-) TimerEvent: {}
+[26.824779] (-) TimerEvent: {}
+[26.925279] (-) TimerEvent: {}
+[27.025622] (-) TimerEvent: {}
+[27.125965] (-) TimerEvent: {}
+[27.226375] (-) TimerEvent: {}
+[27.326752] (-) TimerEvent: {}
+[27.427131] (-) TimerEvent: {}
+[27.527642] (-) TimerEvent: {}
+[27.628032] (-) TimerEvent: {}
+[27.728368] (-) TimerEvent: {}
+[27.828661] (-) TimerEvent: {}
+[27.929008] (-) TimerEvent: {}
+[28.029398] (-) TimerEvent: {}
+[28.129701] (-) TimerEvent: {}
+[28.230070] (-) TimerEvent: {}
+[28.330500] (-) TimerEvent: {}
+[28.430946] (-) TimerEvent: {}
+[28.531270] (-) TimerEvent: {}
+[28.618123] (pointcloud_to_laserscan) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dummy_pointcloud_publisher\x1b[0m\n'}
+[28.631374] (-) TimerEvent: {}
+[28.726922] (pointcloud_to_laserscan) StdoutLine: {'line': b'[100%] Built target dummy_pointcloud_publisher\n'}
+[28.731487] (-) TimerEvent: {}
+[28.735296] (pointcloud_to_laserscan) JobEnded: {'identifier': 'pointcloud_to_laserscan', 'rc': 'SIGINT'}
+[28.745890] (rm_navigation) JobSkipped: {'identifier': 'rm_navigation'}
+[28.745985] (costmap_converter) JobSkipped: {'identifier': 'costmap_converter'}
+[28.746016] (fast_lio) JobSkipped: {'identifier': 'fast_lio'}
+[28.746042] (icp_registration) JobSkipped: {'identifier': 'icp_registration'}
+[28.746067] (linefit_ground_segmentation_ros) JobSkipped: {'identifier': 'linefit_ground_segmentation_ros'}
+[28.746093] (point_lio) JobSkipped: {'identifier': 'point_lio'}
+[28.746119] (ros2_livox_simulation) JobSkipped: {'identifier': 'ros2_livox_simulation'}
+[28.746145] (teb_msgs) JobSkipped: {'identifier': 'teb_msgs'}
+[28.746170] (teb_local_planner) JobSkipped: {'identifier': 'teb_local_planner'}
+[28.746198] (-) EventReactorShutdown: {}

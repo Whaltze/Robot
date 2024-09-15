@@ -1,0 +1,1 @@
+Invoking command in '/home/whaltze/rm/patrol/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(rm) /usr/bin/cmake --build /home/whaltze/rm/patrol/build/livox_ros_driver2 -- -j8 -l8

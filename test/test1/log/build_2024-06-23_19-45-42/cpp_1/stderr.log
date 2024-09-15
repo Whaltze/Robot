@@ -1,0 +1,14 @@
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/sender.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/String.h: 没有那个文件或目录
+    2 | #include [01;31m[K"std_msgs/String.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/String.h: 没有那个文件或目录
+    2 | #include [01;31m[K"std_msgs/String.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sender.dir/build.make:76：CMakeFiles/sender.dir/src/sender.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/sender.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76：CMakeFiles/listener.dir/src/listener.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/listener.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

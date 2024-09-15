@@ -1,0 +1,30 @@
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:4:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+    4 | void chatterCallback(const [01;31m[Kstd_msgs[m[K::String::ConstPtr& msg) {
+      |                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:4:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+    4 | void chatterCallback(const std_msgs::String[01;31m[K::[m[KConstPtr& msg) {
+      |                                            [01;31m[K^~[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:4:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+    4 | void chatterCallback[34m[K([m[Kconst std_msgs::String[01;31m[K:[m[K[32m[K:[m[KConstPtr& msg) {
+      |                     [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+      |                                            [32m[K)[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:4:44:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+    4 | void chatterCallback(const std_msgs::String[01;31m[K::[m[KConstPtr& msg) {
+      |                                            [01;31m[K^~[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:9:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+    9 |   [01;31m[Kros[m[K::init(argc, argv, "subscriber_node");
+      |   [01;31m[K^~~[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:10:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   10 |   [01;31m[Kros[m[K::NodeHandle n;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:12:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   12 |   [01;31m[Kros[m[K::Subscriber sub = n.subscribe("chatter", 1000, chatterCallback);
+      |   [01;31m[K^~~[m[K
+[01m[K/home/whaltze/rm/test/test1/src/cpp_1/src/listener.cpp:14:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   14 |   [01;31m[Kros[m[K::spin();
+      |   [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76：CMakeFiles/listener.dir/src/listener.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/listener.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

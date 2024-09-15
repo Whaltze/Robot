@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000322] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict()}
+[0.000392] (usb_cam) JobStarted: {'identifier': 'usb_cam'}
+[0.007651] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'cmake'}
+[0.008312] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'build'}
+[0.008946] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/whaltze/rm/test/test2/catkin_ws/build/usb_cam', '--', '-j8', '-l8'], 'cwd': '/home/whaltze/rm/test/test2/catkin_ws/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1718'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=67b74ff213ed94e2a63bc11c668e1097'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/whaltze/rm/test/test2/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/whaltze/anaconda3/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1718,unix/Ubuntu:/tmp/.ICE-unix/1718'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a5b9f49c_e6fd_4bfd_a1a5_c37bdeb5685d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5HYGQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.141'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/test/test2/catkin_ws/build/usb_cam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=67b74ff213ed94e2a63bc11c668e1097'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.051682] (usb_cam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target usb_cam\x1b[0m\n'}
+[0.051907] (usb_cam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target usb_cam_node_exe\x1b[0m\n'}
+[0.052036] (usb_cam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[0.052361] (usb_cam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[0.066103] (usb_cam) StdoutLine: {'line': b'[ 14%] Built target gtest_main\n'}
+[0.067348] (usb_cam) StdoutLine: {'line': b'[ 28%] Built target gtest\n'}
+[0.067585] (usb_cam) StdoutLine: {'line': b'[ 42%] Built target usb_cam\n'}
+[0.072411] (usb_cam) StdoutLine: {'line': b'[ 57%] Built target usb_cam_node_exe\n'}
+[0.086783] (usb_cam) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o\x1b[0m\n'}
+[0.086986] (usb_cam) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/ros2/usb_cam_node.cpp.o\x1b[0m\n'}
+[0.087267] (usb_cam) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o\x1b[0m\n'}
+[0.099221] (-) TimerEvent: {}
+[0.194487] (usb_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/whaltze/rm/test/test2/catkin_ws/src/usb_cam/src/ros2/usb_cam_node.cpp:34\x1b[m\x1b[K:\n'}
+[0.194632] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/whaltze/rm/test/test2/catkin_ws/src/usb_cam/include/usb_cam/usb_cam_node.hpp:38:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcamera_info_manager/camera_info_manager.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.194685] (usb_cam) StderrLine: {'line': b'   38 | #include \x1b[01;31m\x1b[K"camera_info_manager/camera_info_manager.hpp"\x1b[m\x1b[K\n'}
+[0.194732] (usb_cam) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.194835] (usb_cam) StderrLine: {'line': b'compilation terminated.\n'}
+[0.198262] (usb_cam) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/usb_cam_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/usb_cam_node.dir/src/ros2/usb_cam_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.198615] (usb_cam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:189\xef\xbc\x9aCMakeFiles/usb_cam_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[0.198690] (usb_cam) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[0.199413] (-) TimerEvent: {}
+[0.299856] (-) TimerEvent: {}
+[0.400204] (-) TimerEvent: {}
+[0.500601] (-) TimerEvent: {}
+[0.601043] (-) TimerEvent: {}
+[0.701623] (-) TimerEvent: {}
+[0.802037] (-) TimerEvent: {}
+[0.902489] (-) TimerEvent: {}
+[0.998073] (usb_cam) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable test_usb_cam_utils\x1b[0m\n'}
+[1.002691] (-) TimerEvent: {}
+[1.103054] (-) TimerEvent: {}
+[1.135699] (usb_cam) StdoutLine: {'line': b'[ 85%] Built target test_usb_cam_utils\n'}
+[1.203228] (-) TimerEvent: {}
+[1.228536] (usb_cam) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable test_pixel_formats\x1b[0m\n'}
+[1.303491] (-) TimerEvent: {}
+[1.352590] (usb_cam) StdoutLine: {'line': b'[ 92%] Built target test_pixel_formats\n'}
+[1.353627] (usb_cam) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[1.355067] (usb_cam) CommandEnded: {'returncode': 2}
+[1.403673] (-) TimerEvent: {}
+[1.417896] (usb_cam) JobEnded: {'identifier': 'usb_cam', 'rc': 2}
+[1.428376] (-) EventReactorShutdown: {}

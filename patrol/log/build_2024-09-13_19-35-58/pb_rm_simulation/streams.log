@@ -1,0 +1,106 @@
+[0.023s] Invoking command in '/home/whaltze/rm/patrol/build/pb_rm_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(rm) /usr/bin/cmake /home/whaltze/rm/patrol/pb_rmsimulation/src/rm_simulation/pb_rm_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/whaltze/rm/patrol/install/pb_rm_simulation
+[0.370s] -- The C compiler identification is GNU 11.4.0
+[0.370s] -- The CXX compiler identification is GNU 11.4.0
+[0.370s] -- Detecting C compiler ABI info
+[0.371s] -- Detecting C compiler ABI info - done
+[0.372s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.372s] -- Detecting C compile features
+[0.372s] -- Detecting C compile features - done
+[0.375s] -- Detecting CXX compiler ABI info
+[0.375s] -- Detecting CXX compiler ABI info - done
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.376s] -- Detecting CXX compile features
+[0.376s] -- Detecting CXX compile features - done
+[0.376s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.789s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.902s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.069s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.085s] -- Configuring done
+[1.087s] -- Generating done
+[1.093s] -- Build files have been written to: /home/whaltze/rm/patrol/build/pb_rm_simulation
+[1.122s] Invoked command in '/home/whaltze/rm/patrol/build/pb_rm_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(rm) /usr/bin/cmake /home/whaltze/rm/patrol/pb_rmsimulation/src/rm_simulation/pb_rm_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/whaltze/rm/patrol/install/pb_rm_simulation
+[1.122s] Invoking command in '/home/whaltze/rm/patrol/build/pb_rm_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(rm) /usr/bin/cmake --build /home/whaltze/rm/patrol/build/pb_rm_simulation -- -j8 -l8
+[3.500s] Invoked command in '/home/whaltze/rm/patrol/build/pb_rm_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(rm) /usr/bin/cmake --build /home/whaltze/rm/patrol/build/pb_rm_simulation -- -j8 -l8
+[3.601s] Invoking command in '/home/whaltze/rm/patrol/build/pb_rm_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(rm) /usr/bin/cmake --install /home/whaltze/rm/patrol/build/pb_rm_simulation
+[3.862s] -- Install configuration: ""
+[3.863s] -- Execute custom install script
+[3.863s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/launch/rm_simulation.launch.py
+[3.863s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/urdf/simulation_waking_robot.xacro
+[3.863s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/RMUC2024_world/meshes/RMUC_2024.stl
+[3.863s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/RMUC2024_world/model.config
+[3.863s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/RMUC2024_world/model.sdf
+[3.863s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/RMUL2024_world/meshes/RMUL_2024.stl
+[3.863s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/mid360.stl
+[3.863s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle1/model.config
+[3.870s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle1/model.sdf
+[3.883s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle10/model.config
+[3.913s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle10/model.sdf
+[3.960s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle11/model.config
+[3.984s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle11/model.sdf
+[4.003s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle12/model.config
+[4.031s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle12/model.sdf
+[4.054s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle2/model.config
+[4.078s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle2/model.sdf
+[4.104s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle3/model.config
+[4.130s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle3/model.sdf
+[4.159s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle4/model.config
+[4.174s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle4/model.sdf
+[4.192s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle5/model.config
+[4.222s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle5/model.sdf
+[4.243s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle6/model.config
+[4.259s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle6/model.sdf
+[4.270s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle7/model.config
+[4.284s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle7/model.sdf
+[4.306s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle8/model.config
+[4.327s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle8/model.sdf
+[4.348s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle9/model.config
+[4.364s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle9/model.sdf
+[4.379s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/CMakeLists.txt
+[4.397s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle1.so
+[4.419s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle10.so
+[4.439s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle11.so
+[4.461s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle12.so
+[4.480s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle2.so
+[4.508s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle3.so
+[4.527s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle4.so
+[4.541s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle5.so
+[4.565s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle6.so
+[4.586s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle7.so
+[4.617s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle8.so
+[4.630s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle9.so
+[4.649s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacles.so
+[4.669s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle1.cc
+[4.678s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle10.cc
+[4.709s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle11.cc
+[4.743s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle12.cc
+[4.770s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle13.cc
+[4.810s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle2.cc
+[4.845s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle3.cc
+[4.866s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle4.cc
+[4.879s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle5.cc
+[4.897s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle6.cc
+[4.919s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle7.cc
+[4.945s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle8.cc
+[4.968s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle9.cc
+[4.987s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacles.cc
+[5.033s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/world/RMUC2024_world/RMUC2024_world.world
+[5.056s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/world/RMUL2024_world/RMUL2024_world.world
+[5.092s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/world/RMUL2024_world/RMUL2024_world_dynamic_obstacles.world
+[5.128s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/world/RMUL2024_world/model.config
+[5.151s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/world/RMUL2024_world/model.sdf
+[5.174s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/rviz/rviz2.rviz
+[5.224s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/ament_index/resource_index/package_run_dependencies/pb_rm_simulation
+[5.252s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/ament_index/resource_index/parent_prefix_path/pb_rm_simulation
+[5.270s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/environment/ament_prefix_path.sh
+[5.288s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/environment/ament_prefix_path.dsv
+[5.312s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/environment/path.sh
+[5.334s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/environment/path.dsv
+[5.362s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/local_setup.bash
+[5.385s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/local_setup.sh
+[5.410s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/local_setup.zsh
+[5.439s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/local_setup.dsv
+[5.472s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/package.dsv
+[5.522s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/ament_index/resource_index/packages/pb_rm_simulation
+[5.555s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/cmake/pb_rm_simulationConfig.cmake
+[5.586s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/cmake/pb_rm_simulationConfig-version.cmake
+[5.619s] -- Symlinking: /home/whaltze/rm/patrol/install/pb_rm_simulation/share/pb_rm_simulation/package.xml

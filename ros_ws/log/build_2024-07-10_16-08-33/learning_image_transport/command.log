@@ -1,0 +1,4 @@
+Invoking command in '/home/whaltze/rm/ros_ws/build/learning_image_transport': /usr/bin/cmake /home/whaltze/rm/ros_ws/src/learning_image_transport -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/whaltze/rm/ros_ws/install/learning_image_transport
+Invoked command in '/home/whaltze/rm/ros_ws/build/learning_image_transport' returned '0': /usr/bin/cmake /home/whaltze/rm/ros_ws/src/learning_image_transport -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/whaltze/rm/ros_ws/install/learning_image_transport
+Invoking command in '/home/whaltze/rm/ros_ws/build/learning_image_transport': /usr/bin/cmake --build /home/whaltze/rm/ros_ws/build/learning_image_transport -- -j8 -l8
+Invoked command in '/home/whaltze/rm/ros_ws/build/learning_image_transport' returned '2': /usr/bin/cmake --build /home/whaltze/rm/ros_ws/build/learning_image_transport -- -j8 -l8

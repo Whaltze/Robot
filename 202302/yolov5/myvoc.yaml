@@ -1,0 +1,13 @@
+ #yaml格式的文件要求非常严格
+ #禁止使用//注释
+ #缩进和空格不同都有可能引起报错
+ #注意：冒号后面要加空格
+
+train: /home/whaltze/rm/202302/yolov5/dataSet_path/train.txt
+val: /home/whaltze/rm/202302/yolov5/dataSet_path/val.txt
+
+# number of classes
+nc: 8
+
+# class names
+names: ["one","two","three","four","five","six","seven","eight"]

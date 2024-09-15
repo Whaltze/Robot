@@ -1,0 +1,25 @@
+[0.010s] Invoking command in '/home/whaltze/rm/test/test1/build/cpp_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/whaltze/rm/test/test1/build/cpp_1 -- -j8 -l8
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/sender.dir/src/sender.cpp.o[0m
+[1.987s] [100%] [32m[1mLinking CXX executable sender[0m
+[2.066s] [100%] Built target sender
+[2.075s] Invoked command in '/home/whaltze/rm/test/test1/build/cpp_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/whaltze/rm/test/test1/build/cpp_1 -- -j8 -l8
+[2.110s] Invoking command in '/home/whaltze/rm/test/test1/build/cpp_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/whaltze/rm/test/test1/build/cpp_1
+[2.115s] -- Install configuration: ""
+[2.115s] -- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/ament_index/resource_index/package_run_dependencies/cpp_1
+[2.115s] -- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/ament_index/resource_index/parent_prefix_path/cpp_1
+[2.116s] -- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/environment/ament_prefix_path.sh
+[2.116s] -- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/environment/ament_prefix_path.dsv
+[2.116s] -- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/environment/path.sh
+[2.116s] -- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/environment/path.dsv
+[2.116s] -- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/local_setup.bash
+[2.116s] -- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/local_setup.sh
+[2.116s] -- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/local_setup.zsh
+[2.116s] -- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/local_setup.dsv
+[2.116s] -- Installing: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/package.dsv
+[2.116s] -- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/ament_index/resource_index/packages/cpp_1
+[2.116s] -- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/cmake/cpp_1Config.cmake
+[2.116s] -- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/cmake/cpp_1Config-version.cmake
+[2.116s] -- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/package.xml
+[2.116s] -- Installing: /home/whaltze/rm/test/test1/install/cpp_1/lib/cpp_1/sender
+[2.116s] -- Set runtime path of "/home/whaltze/rm/test/test1/install/cpp_1/lib/cpp_1/sender" to ""
+[2.118s] Invoked command in '/home/whaltze/rm/test/test1/build/cpp_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/whaltze/rm/test/test1/build/cpp_1

@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/whaltze/rm/patrol/build/linefit_ground_segmentation
+[ 20%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/ground_segmentation.cc.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/viewer.cc.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/bin.cc.o[0m
+In file included from [01m[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/bin.cc:1[m[K:
+[01m[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/bin.h:6:10:[m[K [01;31m[Kfatal error: [m[Kpcl/point_cloud.h: 没有那个文件或目录
+    6 | #include [01;31m[K<pcl/point_cloud.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/linefit_ground_segmentation.dir/build.make:76：CMakeFiles/linefit_ground_segmentation.dir/src/bin.cc.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+In file included from [01m[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/segment.h:7[m[K,
+                 from [01m[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/segment.cc:1[m[K:
+[01m[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/bin.h:6:10:[m[K [01;31m[Kfatal error: [m[Kpcl/point_cloud.h: 没有那个文件或目录
+    6 | #include [01;31m[K<pcl/point_cloud.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/linefit_ground_segmentation.dir/build.make:104：CMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o] 错误 1
+In file included from [01m[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/segment.h:7[m[K,
+                 from [01m[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/ground_segmentation.h:6[m[K,
+                 from [01m[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/ground_segmentation.cc:1[m[K:
+[01m[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/bin.h:6:10:[m[K [01;31m[Kfatal error: [m[Kpcl/point_cloud.h: 没有那个文件或目录
+    6 | #include [01;31m[K<pcl/point_cloud.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/linefit_ground_segmentation.dir/build.make:90：CMakeFiles/linefit_ground_segmentation.dir/src/ground_segmentation.cc.o] 错误 1
+In file included from [01m[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/src/viewer.cc:1[m[K:
+[01m[K/home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/ground_segmentation/viewer.h:7:10:[m[K [01;31m[Kfatal error: [m[Kpcl/visualization/pcl_visualizer.h: 没有那个文件或目录
+    7 | #include [01;31m[K<pcl/visualization/pcl_visualizer.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/linefit_ground_segmentation.dir/build.make:118：CMakeFiles/linefit_ground_segmentation.dir/src/viewer.cc.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:138：CMakeFiles/linefit_ground_segmentation.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

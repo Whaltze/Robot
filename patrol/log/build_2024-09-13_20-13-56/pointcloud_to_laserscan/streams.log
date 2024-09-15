@@ -1,0 +1,12 @@
+[0.041s] Invoking command in '/home/whaltze/rm/patrol/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(rm) /usr/bin/cmake --build /home/whaltze/rm/patrol/build/pointcloud_to_laserscan -- -j8 -l8
+[0.153s] [35m[1mConsolidate compiler generated dependencies of target laserscan_to_pointcloud[0m
+[0.153s] [35m[1mConsolidate compiler generated dependencies of target laserscan_to_pointcloud_node[0m
+[0.153s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_to_laserscan_node[0m
+[0.175s] [ 20%] Built target pointcloud_to_laserscan_node
+[0.179s] [ 40%] Built target laserscan_to_pointcloud_node
+[0.193s] [ 60%] Built target laserscan_to_pointcloud
+[0.209s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_to_laserscan[0m
+[0.230s] [ 80%] Built target pointcloud_to_laserscan
+[0.246s] [35m[1mConsolidate compiler generated dependencies of target dummy_pointcloud_publisher[0m
+[0.270s] [100%] Built target dummy_pointcloud_publisher
+[0.284s] Invoked command in '/home/whaltze/rm/patrol/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(rm) /usr/bin/cmake --build /home/whaltze/rm/patrol/build/pointcloud_to_laserscan -- -j8 -l8

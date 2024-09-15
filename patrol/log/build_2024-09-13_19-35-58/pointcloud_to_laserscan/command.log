@@ -1,0 +1,1 @@
+Invoking command in '/home/whaltze/rm/patrol/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(rm) /usr/bin/cmake /home/whaltze/rm/patrol/pb_rmsimulation/src/rm_perception/pointcloud_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/whaltze/rm/patrol/install/pointcloud_to_laserscan

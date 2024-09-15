@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.000555] (cpp_1) JobQueued: {'identifier': 'cpp_1', 'dependencies': OrderedDict()}
+[0.000952] (cpp_1) JobStarted: {'identifier': 'cpp_1'}
+[0.015253] (cpp_1) JobProgress: {'identifier': 'cpp_1', 'progress': 'cmake'}
+[0.018360] (cpp_1) JobProgress: {'identifier': 'cpp_1', 'progress': 'build'}
+[0.019009] (cpp_1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/whaltze/rm/test/test1/build/cpp_1', '--', '-j8', '-l8'], 'cwd': '/home/whaltze/rm/test/test1/build/cpp_1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('OLDPWD', '/home/whaltze/rm/test/test1/src/cpp_1/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1889'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/whaltze/rm/test/test1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1718,unix/Ubuntu:/tmp/.ICE-unix/1718'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac2a6468_6b66_445d_bb06_e8f01c3b6790'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.632QP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/whaltze/rm/test/test1/install/cpp_1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/test/test1/build/cpp_1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/whaltze/rm/test/test1/install/cpp_1:/opt/ros/humble')]), 'shell': False}
+[0.093277] (cpp_1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.097395] (-) TimerEvent: {}
+[0.102613] (cpp_1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sender\x1b[0m\n'}
+[0.124743] (cpp_1) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o\x1b[0m\n'}
+[0.128843] (cpp_1) StdoutLine: {'line': b'[ 75%] Built target sender\n'}
+[0.197520] (-) TimerEvent: {}
+[0.298137] (-) TimerEvent: {}
+[0.398453] (-) TimerEvent: {}
+[0.499042] (-) TimerEvent: {}
+[0.599420] (-) TimerEvent: {}
+[0.699711] (-) TimerEvent: {}
+[0.800080] (-) TimerEvent: {}
+[0.900379] (-) TimerEvent: {}
+[1.000721] (-) TimerEvent: {}
+[1.101254] (-) TimerEvent: {}
+[1.201599] (-) TimerEvent: {}
+[1.302047] (-) TimerEvent: {}
+[1.402365] (-) TimerEvent: {}
+[1.502729] (-) TimerEvent: {}
+[1.603114] (-) TimerEvent: {}
+[1.703429] (-) TimerEvent: {}
+[1.803786] (-) TimerEvent: {}
+[1.904083] (-) TimerEvent: {}
+[2.004548] (-) TimerEvent: {}
+[2.105332] (-) TimerEvent: {}
+[2.205623] (-) TimerEvent: {}
+[2.306041] (-) TimerEvent: {}
+[2.406356] (-) TimerEvent: {}
+[2.506884] (-) TimerEvent: {}
+[2.607219] (-) TimerEvent: {}
+[2.707782] (-) TimerEvent: {}
+[2.808091] (-) TimerEvent: {}
+[2.908452] (-) TimerEvent: {}
+[3.009050] (-) TimerEvent: {}
+[3.109389] (-) TimerEvent: {}
+[3.210270] (-) TimerEvent: {}
+[3.310621] (-) TimerEvent: {}
+[3.410953] (-) TimerEvent: {}
+[3.511340] (-) TimerEvent: {}
+[3.611654] (-) TimerEvent: {}
+[3.712110] (-) TimerEvent: {}
+[3.812423] (-) TimerEvent: {}
+[3.912755] (-) TimerEvent: {}
+[4.013156] (-) TimerEvent: {}
+[4.113489] (-) TimerEvent: {}
+[4.214187] (-) TimerEvent: {}
+[4.314521] (-) TimerEvent: {}
+[4.415264] (-) TimerEvent: {}
+[4.515598] (-) TimerEvent: {}
+[4.616065] (-) TimerEvent: {}
+[4.716367] (-) TimerEvent: {}
+[4.816678] (-) TimerEvent: {}
+[4.917024] (-) TimerEvent: {}
+[5.017323] (-) TimerEvent: {}
+[5.117678] (-) TimerEvent: {}
+[5.217969] (-) TimerEvent: {}
+[5.318312] (-) TimerEvent: {}
+[5.418627] (-) TimerEvent: {}
+[5.519045] (-) TimerEvent: {}
+[5.619424] (-) TimerEvent: {}
+[5.720176] (-) TimerEvent: {}
+[5.820999] (-) TimerEvent: {}
+[5.921551] (-) TimerEvent: {}
+[6.021985] (-) TimerEvent: {}
+[6.122403] (-) TimerEvent: {}
+[6.222797] (-) TimerEvent: {}
+[6.323117] (-) TimerEvent: {}
+[6.423506] (-) TimerEvent: {}
+[6.523842] (-) TimerEvent: {}
+[6.624166] (-) TimerEvent: {}
+[6.724455] (-) TimerEvent: {}
+[6.824789] (-) TimerEvent: {}
+[6.925123] (-) TimerEvent: {}
+[7.025449] (-) TimerEvent: {}
+[7.125840] (-) TimerEvent: {}
+[7.226172] (-) TimerEvent: {}
+[7.326483] (-) TimerEvent: {}
+[7.426818] (-) TimerEvent: {}
+[7.527177] (-) TimerEvent: {}
+[7.627535] (-) TimerEvent: {}
+[7.727810] (-) TimerEvent: {}
+[7.828130] (-) TimerEvent: {}
+[7.928550] (-) TimerEvent: {}
+[8.028928] (-) TimerEvent: {}
+[8.129238] (-) TimerEvent: {}
+[8.229548] (-) TimerEvent: {}
+[8.329884] (-) TimerEvent: {}
+[8.430206] (-) TimerEvent: {}
+[8.530481] (-) TimerEvent: {}
+[8.630815] (-) TimerEvent: {}
+[8.731130] (-) TimerEvent: {}
+[8.831561] (-) TimerEvent: {}
+[8.931921] (-) TimerEvent: {}
+[9.032206] (-) TimerEvent: {}
+[9.083860] (cpp_1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[9.132388] (-) TimerEvent: {}
+[9.232732] (-) TimerEvent: {}
+[9.333019] (-) TimerEvent: {}
+[9.430022] (cpp_1) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[9.433102] (-) TimerEvent: {}
+[9.441241] (cpp_1) CommandEnded: {'returncode': 0}
+[9.478429] (cpp_1) JobProgress: {'identifier': 'cpp_1', 'progress': 'install'}
+[9.485883] (cpp_1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/whaltze/rm/test/test1/build/cpp_1'], 'cwd': '/home/whaltze/rm/test/test1/build/cpp_1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'whaltze'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/whaltze'), ('OLDPWD', '/home/whaltze/rm/test/test1/src/cpp_1/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1889'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/whaltze/rm/test/test1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'whaltze'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'whaltze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/1718,unix/Ubuntu:/tmp/.ICE-unix/1718'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac2a6468_6b66_445d_bb06_e8f01c3b6790'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.632QP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/whaltze/rm/test/test1/install/cpp_1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/whaltze/rm/test/test1/build/cpp_1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/whaltze/rm/test/test1/install/cpp_1:/opt/ros/humble')]), 'shell': False}
+[9.494499] (cpp_1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.495196] (cpp_1) StdoutLine: {'line': b'-- Installing: /home/whaltze/rm/test/test1/install/cpp_1/share/ament_index/resource_index/package_run_dependencies/cpp_1\n'}
+[9.495994] (cpp_1) StdoutLine: {'line': b'-- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/ament_index/resource_index/parent_prefix_path/cpp_1\n'}
+[9.496132] (cpp_1) StdoutLine: {'line': b'-- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/environment/ament_prefix_path.sh\n'}
+[9.496185] (cpp_1) StdoutLine: {'line': b'-- Installing: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/environment/ament_prefix_path.dsv\n'}
+[9.497635] (cpp_1) StdoutLine: {'line': b'-- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/environment/path.sh\n'}
+[9.497701] (cpp_1) StdoutLine: {'line': b'-- Installing: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/environment/path.dsv\n'}
+[9.498163] (cpp_1) StdoutLine: {'line': b'-- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/local_setup.bash\n'}
+[9.498316] (cpp_1) StdoutLine: {'line': b'-- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/local_setup.sh\n'}
+[9.498468] (cpp_1) StdoutLine: {'line': b'-- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/local_setup.zsh\n'}
+[9.498527] (cpp_1) StdoutLine: {'line': b'-- Installing: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/local_setup.dsv\n'}
+[9.499180] (cpp_1) StdoutLine: {'line': b'-- Installing: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/package.dsv\n'}
+[9.500180] (cpp_1) StdoutLine: {'line': b'-- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/ament_index/resource_index/packages/cpp_1\n'}
+[9.500271] (cpp_1) StdoutLine: {'line': b'-- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/cmake/cpp_1Config.cmake\n'}
+[9.500510] (cpp_1) StdoutLine: {'line': b'-- Up-to-date: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/cmake/cpp_1Config-version.cmake\n'}
+[9.500653] (cpp_1) StdoutLine: {'line': b'-- Installing: /home/whaltze/rm/test/test1/install/cpp_1/share/cpp_1/package.xml\n'}
+[9.502921] (cpp_1) StdoutLine: {'line': b'-- Installing: /home/whaltze/rm/test/test1/install/cpp_1/lib/cpp_1/sender\n'}
+[9.520065] (cpp_1) StdoutLine: {'line': b'-- Set runtime path of "/home/whaltze/rm/test/test1/install/cpp_1/lib/cpp_1/sender" to ""\n'}
+[9.520164] (cpp_1) StdoutLine: {'line': b'-- Installing: /home/whaltze/rm/test/test1/install/cpp_1/lib/cpp_1/listener\n'}
+[9.524022] (cpp_1) StdoutLine: {'line': b'-- Set runtime path of "/home/whaltze/rm/test/test1/install/cpp_1/lib/cpp_1/listener" to ""\n'}
+[9.525903] (cpp_1) CommandEnded: {'returncode': 0}
+[9.533227] (-) TimerEvent: {}
+[9.590355] (cpp_1) JobEnded: {'identifier': 'cpp_1', 'rc': 0}
+[9.591275] (-) EventReactorShutdown: {}

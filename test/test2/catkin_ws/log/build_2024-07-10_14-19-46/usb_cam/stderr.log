@@ -1,0 +1,9 @@
+In file included from [01m[K/home/whaltze/rm/test/test2/catkin_ws/src/usb_cam/src/ros2/usb_cam_node.cpp:34[m[K:
+[01m[K/home/whaltze/rm/test/test2/catkin_ws/src/usb_cam/include/usb_cam/usb_cam_node.hpp:38:10:[m[K [01;31m[Kfatal error: [m[Kcamera_info_manager/camera_info_manager.hpp: 没有那个文件或目录
+   38 | #include [01;31m[K"camera_info_manager/camera_info_manager.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/usb_cam_node.dir/build.make:76：CMakeFiles/usb_cam_node.dir/src/ros2/usb_cam_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:189：CMakeFiles/usb_cam_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2
