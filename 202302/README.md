@@ -11,13 +11,17 @@ git clone -b master git@github.com:Whaltze/Robot.git
 ## number_detect本地部署
 
 cd 202302/number_detect/
+
 pip install -r requirements.txt 
+
 python number_detect.py
 
 ## ros2本地部署
 
 cd 202302/ros2
+
 分别打开三个终端，依次输入
+
 > ros2 launch usb_cam camera.launch.py
 
 > ros2 run camera camera_node #这里如果找不到包可以先source install/setup.bash即可
