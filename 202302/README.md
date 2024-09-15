@@ -28,4 +28,4 @@ cd 202302/ros2
 
 > ros2 run rqt_image_view rqt_image_view
 
-选择rec_img左上角便可以看看白色矩形框
+选择rec_img右上角便可以看看白色矩形框
